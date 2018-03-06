@@ -1,15 +1,15 @@
 # 常用的markdown编译器
 * [1. 在线的markdown编译器](https://github.com/FullStackPark/Knowledge/blob/master/MarkDown%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.md#-1%E5%9C%A8%E7%BA%BF%E7%9A%84markdown%E7%BC%96%E8%AF%91%E5%99%A8)
 
-* [2. Chrome 插件](#2)
+* [2. Chrome 插件](https://github.com/FullStackPark/Knowledge/blob/master/MarkDown%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.md#2-chrome-%E6%8F%92%E4%BB%B6)
 
-* [3. 支持多平台](#3)
+* [3. 支持多平台](https://github.com/FullStackPark/Knowledge/blob/master/MarkDown%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.md#3-%E6%94%AF%E6%8C%81%E5%A4%9A%E5%B9%B3%E5%8F%B0)
 
-* [4.Windows平台编辑器](#4)
+* [4.Windows平台编辑器](https://github.com/FullStackPark/Knowledge/blob/master/MarkDown%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.md#4windows%E5%B9%B3%E5%8F%B0%E7%BC%96%E8%BE%91%E5%99%A8)
 
-* [ 5. OS X平台](#5)
+* [ 5. OS X平台](https://github.com/FullStackPark/Knowledge/blob/master/MarkDown%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.md#5-os-x%E5%B9%B3%E5%8F%B0)
 
-## <span id="1"> 1在线的markdown编译器</span>
+## 1在线的markdown编译器
 
 
 >**1.dillinger 漂亮强大，支持md, html, pdf 文件导出。支持dropbox, onedrive，google drive, github. 来自国外，可能不够稳定.**
@@ -18,11 +18,11 @@
 
 >**3.简书 一个很不错的博客平台，每几秒钟便会自动存入一个备份。可以直接从本地拖入照片生成链接，一直在不断优化。作为一个博客平台，需要注册账号后方能进行写作。**
 
-## <span id="2">2. Chrome 插件</span>
+## 2. Chrome 插件
 
 >**1. Marxico 中文名马克飞象，因为印象笔记不支持Markdown，而这款可以直接把文本存到印象笔记的编辑器对于重度印象笔记用户是个不错的选择。付费软件，可以免费试用**。
 
-## <span id="3">3. 支持多平台</span>
+## 3. 支持多平台
 
 >**1. FarBox 一个支持Markdown写作语法的博客平台，让用户通过Dropbox（现在默认是自己的同步服务器）直接建立个人网站。FarBox编辑器免费，支持多平台（无web版，Linux版停止维护），个人认为是Windows平台最优雅的编辑器。多说一句，Farbox服务可以免费试用，在本地编辑器内写作自动同步发布在个人博客，对像笔者这样希望有个人博客但却不愿折腾的小白来说，是个不错的选择**
 
@@ -34,7 +34,7 @@
 
 >**5. Atom github出的编辑器；功能十分强大，支持各种编程语言；安装后会在添加右键菜单，图标丑；全平台，程序猿专用**
 
-## <span id="4">4.Windows平台编辑器</span>
+## 4.Windows平台编辑器
 
 >**1. MarkdownPad 一款全功能的编辑器，被很多人称赞为windows 平台最好用的markdown编辑器**
 
@@ -44,7 +44,7 @@
 
 >**4. Miu 一款模仿mou的windows平台markdown编辑器，小众推荐，必属精品，官网无法打开，好在小众提供了百度云下载。界面美观，功能不够成熟**
 
-## <span id="5">5. OS X平台</span>
+## 5. OS X平台
 
 >**1. Mou 似乎提到 Mac 和 MD ,接下来的词一定是Mou，因为他们是一个姓么**
 
