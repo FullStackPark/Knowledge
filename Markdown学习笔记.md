@@ -141,7 +141,10 @@ id sem consectetuer libero luctus adipiscing.<br>
 \> \> This is nested blockquote.<br>
 \><br>
 \> Back to the first level.<br>
+
 **引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等：**<br>
+
+```
 \> ## 这是一个标题。<br>
 \> <br>
 \> 1.   这是第一行列表项。<br>
@@ -150,6 +153,8 @@ id sem consectetuer libero luctus adipiscing.<br>
 \> 给出一些例子代码：<br>
 \> <br>
 \>     return shell_exec("echo $input | $markdown_script");<br>
+```
+
 **任何像样的文本编辑器都能轻松地建立 email 型的引用。例如在 BBEdit 中，你可以选取文字后然后从选单中选择增加引用阶层。**
 
 ### 列表
