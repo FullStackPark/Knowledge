@@ -21,7 +21,7 @@
 * [总结](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#5%E6%80%BB%E7%BB%93)
 ****************
 本文借鉴与:[Markdown 语法说明](http://wowubuntu.com/markdown/#link)
-[TOC]
+
 ______________________________________
 ## 1.概述
 ### 1.1宗旨
