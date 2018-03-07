@@ -14,7 +14,7 @@
     * [链接](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#31%E9%93%BE%E6%8E%A5)
     * [强调](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#32%E5%BC%BA%E8%B0%83)
     * [代码](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#33%E4%BB%A3%E7%A0%81)
-    * [图片](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#33%E4%BB%A3%E7%A0%81)
+    * [图片](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#34%E5%9B%BE%E7%89%87)
 * [其他](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#4%E5%85%B6%E4%BB%96)
     * [自动连接](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#41%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5)
     * [反斜杠](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#42%E5%8F%8D%E6%96%9C%E6%9D%A0)
