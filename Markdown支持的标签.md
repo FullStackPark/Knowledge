@@ -1,6 +1,6 @@
 # markdown学习笔记
 
-[Markdown语法大全](https://segmentfault.com/a/1190000010223222#articleHeader9){:target="_blank"} 
+[Markdown语法大全](https://segmentfault.com/a/1190000010223222#articleHeader9)
 
 ## markdown支持的标签
 ### 1标题 
