@@ -1,36 +1,36 @@
 # MarkDown 语法说明
-* [概述](#1)
-    * [宗旨](#1.1)
-    * [兼容](#1.2)
-    * [特殊字符自动转换](#1.3)
-* [区块元素](#2)
-    * [段落和换行](#2.1)
-    * [标题](#2.2)
-    * [区块引用](#2.3)
-    * [列表](#2.4)
-    * [代码区块](#2.5)
-    * [分割线](#2,6)
-* [区段元素](#3)
-    * [链接](#3.1)
-    * [强调](#3.2)
-    * [代码](#3.3)
-    * [图片](#3.4)
-* [其他](#4)
-    * [反斜杠](#4.1)
-    * [自动连接](#4.2)
-* [总结](#5)
+* [概述](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E6%A6%82%E8%BF%B0)
+    * [宗旨](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%AE%97%E6%97%A8)
+    * [兼容](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%85%BC%E5%AE%B9html)
+    * [特殊字符自动转换](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2)
+* [区块元素](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%8C%BA%E5%9D%97%E5%85%83%E7%B4%A0)
+    * [段落和换行](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E6%AE%B5%E8%90%BD%E5%92%8C%E6%8D%A2%E8%A1%8C)
+    * [标题](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E6%A0%87%E9%A2%98)
+    * [区块引用](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8blockquotes)
+    * [列表](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%88%97%E8%A1%A8)
+    * [代码区块](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97)
+    * [分割线](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%88%86%E5%89%B2%E7%BA%BF)
+* [区段元素](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%8C%BA%E6%AE%B5%E5%85%83%E7%B4%A0)
+    * [链接](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E9%93%BE%E6%8E%A5)
+    * [强调](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%BC%BA%E8%B0%83)
+    * [代码](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E4%BB%A3%E7%A0%81)
+    * [图片](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%9B%BE%E7%89%87)
+* [其他](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%85%B6%E4%BB%96)
+    * [反斜杠](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5)
+    * [自动连接](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E5%8F%8D%E6%96%9C%E6%9D%A0)
+* [总结](https://github.com/FullStackPark/Knowledge/blob/master/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md#%E6%80%BB%E7%BB%93)
 ****************
 本文借鉴与:[Markdown 语法说明](http://wowubuntu.com/markdown/#link)
 ______________________________________
-## <span id="1">概述</span>
-### <span id="1.1">宗旨</span>
+## 概述
+### 宗旨
 >**Markdown 的目标是实现「易读易写」.**
 >
 >**可读性，无论如何，都是最重要的。一份使用 Markdown 格式撰写的文件应该可以直接以纯文本发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，而最大灵感来源其实是纯文本电子邮件的格式**
 >
 >总之， Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像*强调*。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。
 
-### <span id="1.2">兼容HTML</span>
+### 兼容HTML
 
 **Markdown 语法的目标是：成为一种适用于网络的书写语言。**
 
@@ -59,7 +59,7 @@ ______________________________________
 
 **和处在 HTML 区块标签间不同，Markdown 语法在 HTML 区段标签间是有效的。**
 
-### <span id="1.3">特殊字符自动转换</span>
+### 特殊字符自动转换
 
 **在 HTML 文件中，有两个字符需要特殊处理： < 和 & 。 < 符号用于起始标签，& 符号则用于标记 HTML 实体，如果你只是想要显示这些字符的原型，你必须要使用实体的形式，像是 \&lt; 和 \&amp;。**
 
@@ -86,14 +86,14 @@ http://images.google.com/images?num=30\&amp;q=larry+bird
 **Markdown 将会把它转换为：** 4 \&lt; 5
 
 **不过需要注意的是，code 范围内，不论是行内还是区块， < 和 & 两个符号都一定会被转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML code （和 HTML 相对而言， HTML 语法中，你要把所有的 < 和 & 都转换为 HTML 实体，才能在 HTML 文件里面写出 HTML code。）**
-## <span id=2>区块元素</span>
-### <span id=2.1>段落和换行
+## 区块元素
+### 段落和换行
 **一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行（空行的定义是显示上看起来像是空的，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。**
 
 **「由一个或多个连续的文本行组成」这句话其实暗示了 Markdown 允许段落内的强迫换行（插入换行符），这个特性和其他大部分的 text-to-HTML 格式不一样（包括 Movable Type 的「Convert Line Breaks」选项），其它的格式会把每个换行符都转成 \<br /> 标签。**
 
 **如果你确实想要依赖 Markdown 来插入 \<br /> 标签的话，在插入处先按入两个以上的空格然后回车**。
-### <span id=2.2>标题</span>
+### 标题
 
 **Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。**
 
@@ -152,7 +152,7 @@ id sem consectetuer libero luctus adipiscing.<br>
 \>     return shell_exec("echo $input | $markdown_script");<br>
 **任何像样的文本编辑器都能轻松地建立 email 型的引用。例如在 BBEdit 中，你可以选取文字后然后从选单中选择增加引用阶层。**
 
-### <span id=2.4>列表</span>
+### 列表
 
 **Markdown 支持有序列表和无序列表。**
 
@@ -262,7 +262,7 @@ sit amet, consectetuer adipiscing elit.
 **换句话说，也就是在行首出现数字-句点-空白，要避免这样的状况，你可以在句点前面加上反斜杠。**<br>
 1986\\. What a great season.
 
-### <span id=2.5>代码区块</span>
+### 代码区块
 
 **和程序相关的写作或是标签语言原始码通常会有已经排版好的代码区块，通常这些区块我们并不希望它以一般段落文件的方式去排版，而是照原来的样子显示，Markdown 会用 \<pre> 和 \<code> 标签来把代码区块包起来。**<br>
 
@@ -316,8 +316,8 @@ end tell<br>
 \- - -
 
 \---------------------------------------<br>
-## <span id=3>区段元素</span>
-### <span id =3.1>链接</span>
+## 区段元素
+### 链接
 Markdown 支持两种形式的链接语法： 行内式和参考式两种形式。
 
 不管是哪一种，链接文字都是用 [方括号] 来标记。
@@ -415,7 +415,7 @@ than from \[Yahoo](http://search.yahoo.com/ "Yahoo Search") or
 **参考式的链接其实重点不在于它比较好写，而是它比较好读，比较一下上面的范例，使用参考式的文章本身只有 81 个字符，但是用行内形式的却会增加到 176 个字元，如果是用纯 HTML 格式来写，会有 234 个字元，在 HTML 格式中，标签比文本还要多。**
 
 **使用 Markdown 的参考式链接，可以让文件更像是浏览器最后产生的结果，让你可以把一些标记相关的元数据移到段落文字之外，你就可以增加链接而不让文章的阅读感觉被打断。**
-### <span id=3.2>强调</span>
+### 强调
 **Markdown 使用星号（\*）和底线（_）作为标记强调字词的符号，被 * 或 _ 包围的字词会被转成用 \<em> 标签包围，用两个 * 或 _ 包起来的话，则会被转成 <strong>，例如**：<br>
 \*single asterisks*
 
@@ -442,7 +442,7 @@ un\*frigging*believable<br>
 
 **如果要在文字前后直接插入普通的星号或底线，你可以用反斜线：**<br>
 \\* this text is surrounded by literal asterisks\\* 
-### <span id=3.3>代码</span>
+### 代码
 **如果要标记一小段行内代码，你可以用反引号把它包起来（`），例如：**<br>
 
 Use the `printf()` function.
@@ -479,7 +479,7 @@ Please don't use any \`<blink>` tags.<br>
 \<p>\<code>\&amp;#8212;\</code> is the decimal-encoded
 equivalent of \code>\&amp;mdash;\</code>.\</p>
 
-### <span id=3.4>图片</span>
+### 图片
 
 很明显地，要在纯文字应用中设计一个「自然」的语法来插入图片是有一定难度的。
 
@@ -503,8 +503,8 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 **「id」是图片参考的名称，图片参考的定义方式则和连结参考一样：**<br>
 [id]: url/to/image  "Optional title attribute"<br>
 到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 \<img> 标签。
-## <span id=4>其他</span>
-### <span id=4.1>自动连接</span>
+## 其他
+### 自动连接
 Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如：<br>
 \<http://example.com/><br>
 <http://example.com/>
@@ -525,7 +525,7 @@ Markdown 会转成：<br>
 在浏览器里面，这段字串（其实是 \<a href="mailto:address@example.com">address@example.com\</a>）会变成一个可以点击的「address@example.com」链接。<br>
 
 （这种作法虽然可以糊弄不少的机器人，但并不能全部挡下来，不过总比什么都不做好些。不管怎样，公开你的信箱终究会引来广告信件的。）<br>
-### <span id=4.2>反斜杠</span>
+### 反斜杠
 Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 \<em> 标签），你可以在星号的前面加上反斜杠：<br>
 \\\*literal asterisks\\*
 
@@ -542,7 +542,7 @@ _   底线<br>
 \-   减号<br>
 .   英文句点<br>
 !   惊叹号<br>
-## <span id=5>总结</span>
+## 总结
 markdown是一个非常好用的书写语言:<br>
 特点就是容易读容易写,并且兼容HTML这点非常舒服
 HTML的任何标签格式 Markdown都好使<br>
