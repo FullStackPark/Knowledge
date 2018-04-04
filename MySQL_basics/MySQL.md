@@ -1,5 +1,5 @@
 ## 数据库
-### [1.1数据库基础]()
+### [1.1数据库基础](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#1-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80)
 #### [1.1.1什么是数据库]()
 #### [1.1.2表]()
 #### [1.1.3数据表]()
