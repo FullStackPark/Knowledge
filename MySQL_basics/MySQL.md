@@ -1,16 +1,16 @@
 ## 数据库
 ### [1.1 数据库基础](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#1-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80)
 #### [1.1.1 什么是数据库](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#11-%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E6%8D%AE%E5%BA%93)
-#### [1.1.2 表](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#112-%E8%A1%A8)
-#### [1.1.3 数据表](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#113-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
-#### [1.1.4 主键](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#114-%E4%B8%BB%E9%94%AE)
-### [1.2 数据库技术构成](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#12-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF%E6%9E%84%E6%88%90)
-#### [1.2.1 数据库系统](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#121-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F)
-#### [1.2.2 SQL 语言]()
-#### [1.2.3 数据库访问接口]()
-### [1.3 什么是MySQL]()
-#### [1.3.1 客户机-服务器软件]()
-#### [1.3.2 MySQL 版本]()
+#### [1.1.2 表](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#112-%E8%A1%A8-1)
+#### [1.1.3 数据类型](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#113-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+#### [1.1.4 主键](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#114-%E4%B8%BB%E9%94%AE-1)
+### [1.2 数据库技术构成](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#12-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF%E6%9E%84%E6%88%90-1)
+#### [1.2.1 数据库系统](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#121-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F-1)
+#### [1.2.2 SQL 语言](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#122-sql-%E8%AF%AD%E8%A8%80-1)
+#### [1.2.3 数据库访问接口](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#123-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BF%E9%97%AE%E6%8E%A5%E5%8F%A3-1)
+### [1.3 什么是MySQL](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#13-%E4%BB%80%E4%B9%88%E6%98%AFmysql-1)
+#### [1.3.1 客户机-服务器软件](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#131-%E5%AE%A2%E6%88%B7%E6%9C%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BD%AF%E4%BB%B6-1)
+#### [1.3.2 MySQL 版本](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#132-mysql-%E7%89%88%E6%9C%AC-1)
 
 
 ### 1. 数据库基础
