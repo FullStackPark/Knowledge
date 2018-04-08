@@ -1,11 +1,17 @@
 ## 数据库
-### [1.1数据库基础](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#1-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80)
-#### [1.1.1什么是数据库](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#11-%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E6%8D%AE%E5%BA%93)
-#### [1.1.2表](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#112-%E8%A1%A8)
-#### [1.1.3数据表](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#113-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
-#### [1.1.4主键](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#114-%E4%B8%BB%E9%94%AE)
-### [1.2数据库技术构成](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#12-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF%E6%9E%84%E6%88%90)
-#### [1.2.1数据库系统](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#121-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F)
+### [1.1 数据库基础](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#1-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80)
+#### [1.1.1 什么是数据库](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#11-%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E6%8D%AE%E5%BA%93)
+#### [1.1.2 表](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#112-%E8%A1%A8)
+#### [1.1.3 数据表](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#113-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+#### [1.1.4 主键](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#114-%E4%B8%BB%E9%94%AE)
+### [1.2 数据库技术构成](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#12-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF%E6%9E%84%E6%88%90)
+#### [1.2.1 数据库系统](https://github.com/FullStackPark/Knowledge/blob/master/MySQL_basics/MySQL.md#121-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F)
+#### [1.2.2 SQL 语言]()
+#### [1.2.3 数据库访问接口]()
+### [1.3 什么是MySQL]()
+#### [1.3.1 客户机-服务器软件]()
+#### [1.3.2 MySQL 版本]()
+
 
 ### 1. 数据库基础
 
@@ -43,3 +49,78 @@
 数据库系统如图1.2所示:
 
 ![图片](Flow_chart.png)
+#### 1.2.2 SQL 语言
+对数据库进行查询和修改操作的语言叫做SQL. SQL的含义是结构化查询语言(Structured Query Language). SQL 有许多不同的类型, 有3个主要的标准: ANSL (美国国家标准机构) SQL, 对ANSI SQL 修改后在1992年采纳的标准, 成为 SQL-92 或 SQL2.最近的 SQL-99 标准, 从 SQL2 扩充而来增加了对象关系特征和许多其他新功能.其次,各大数据库厂商提供不同版本的 SQL,这些版本的SQL不但能包括原始的 ANSI 标准, 而且在很大程度上支持 SQL-92 标准
+
+    SQL包含以下4个部分.
+
+        (1)  数据定义语言 (DDL): DROP, CREATE, ALTER 等语句
+        (2)  数据操作语言 (DML): INSERT(插入), UPDATE(修改), DELETE(删除)语句.
+        (3)  数据查询语言 (DQL): SELECT 语句.
+        (4)  数据控制语言 (DCL): GRANT, REVOKE, COMMIT, ROLLBACK 等语句.
+
+下面是一条 SQL 语句的例子, 该语句声明创建一个名叫 students 的表:
+
+    CREATE TABLE students
+    (
+      student_id INT UNSIGNED,
+      name VARCHAR(30),
+      sex CHAR(1),
+      birth DATE,
+      PRIMARY KEY (student_id)
+      ):
+
+该表包含4个字段, 分别为 student_id, name, sex, birth. 其中 student_id 定义为表的主键.  现在只是定义了一张表格,但并没有任何数据, 接下来这条 SQL 声明语句, 将在 students表中插入一条数据记录:
+
+    INSERT INTO students (student_id, name, sex, birth)
+    VALUES (41048101, 'Lucy Green', '1', '1990-02-14');
+
+执行完该 SQL 语句之后, students表中就会增加一行新记录, 该记录制度按 student_id 的值为 41048101, name 制度按的值为 Lucy Green, sex 字段为1 . birth 制度按为 1990-02-14.
+
+在使用 SELECT 查询语句获取刚才插入的数据, 如下:
+
+    SELECT 那么FRON students WHERE student_id = 41048101;
+    +-----------------+
+    |  name           |
+    +-----------------+
+    |  Lucy Green     |
+    +-----------------+
+
+上面简单举例了常用的数据库操作语句, 在这里为读者一个直观印象, 读者可能还不能理解, 接下来会在学习 MySQL的过程中详细介绍这些知识.
+
+#### 1.2.3 数据库访问接口
+
+不同的程序设计语言会有各自不同的数据库访问接口, 程序语言通过这些接口, 执行 SQL语句, 进行数据库管理. 主要的数据库访问接口有:
+
+1. ODBC
+
+OPEN Database Connectivity (ODBC, 开放数据库互连)技术未访问不同的 SQL 数据库提供了一个共同的接口. ODBC使用SQL作为访问数据库的标准. 这一接口提供了最大限度的互操作性: 一个应用程序可以通过共同的一组代码访问不同的 SQL 数据库管理系统(DBMS). 一个基于ODBC 的应用程序对数据库的操作不依赖何 DBMS.
+不直接与DBMS打交道, 所有的数据库作由对应的DBSM 的ODBC驱动程序完成. 也就是说, 不论是Access,MySQL
+还是 Oracle 数据库, 均可用 ODBC API进行访问. 由此可见, ODBC的最大优点是能以统一的方式处理所有的数据库.
+
+2. JDBC
+
+Java Data Base Connectivity (JDBC, Java数据库连接) 用于 Java 应用程序链接数据库的标准方法,是一种用于执行SQL语句的Java API , 可以为多种关系数据库提供统一访问, 它由一组 Java语言编写的类和接口组成
+
+3. ADO.NET
+
+ADO.NET是微软在.NET 框架下开发这几的一组用于和数据库进行交互的面向对象库类. ADO.NET提供了对关系数据,XML 和应用程序数据的访问, 允许和不同类型的石聚缘以及数据库进行交互.
+
+4. PDO
+
+PDO (PHP Data Object) 为 PHP访问数据库定义了一个轻量级的,一致性的接口, 他提供了一个数据访问抽象层,这样, 无论使用什么数据库,都可以通过一致的函数实行沙勋和获取数据. PDO 是PHP5 新加入的一个重大功能, 针对不同的程序语言, MySQL提供了不同数据库的访问链接驱动, 读者可以在下载页面(http://dev.MySQL.com/downloads/) 下载相关驱动.
+
+### 1.3 什么是MySQL
+
+MySQL 是一个小型关系数据库管理系统, 与替他大型数据库管理系统(例如 Oracle,DB2, SQL Server等) 相比, MySQL 规模小, 功能有限, 但是它体积小, 速度快, 成本低, 切它提供的功能对稍微复杂的应用来说已经够用, 这些特性是的 MySQL成为世界上最受欢迎的开放源代码数据库, 本节将介绍MySQL的特点
+
+#### 1.3.1 客户机-服务器软件
+
+主从式架构(Client-server moldel)或客户端-服务器(Client/server)结构简称 C/S结构,是一种网络架构, 通常再该网络架构下软件分为客户端(Client)和服务器(Server). 服务器是整个应用系统资源的存储与管理中心, 多个客户端则各自处理相应的功能, 共同实现完整的应用. 在客户/服务器结构中, 客户端用户的请求被传送到数据库服务器,数据库服务进行处理后, 将结果返回给用户, 从而减少了网络书记传输量. 用户使用应用程序时, 首先启动客户端, 通过有关命令告知服务器进行连接已完成各种操作, 而服务器则按照此请求提供相应的服务. 每一个客户端软件的实例都可以想一个服务器或应用程序服务器发出请求. 这种系统的特点就是. 客户端和服务器程序不在同一台计算机上运行, 这些客户端和服务器程序同常归属不同的计算机.  主从架构通过不同的途径应用于很多不同类型的应用程序. 比如. 现在人们最熟悉的在因特网上使用的网页, 例如 当顾客想要在当当网站上买书的时候, 电脑和网页浏览器就被当作一个客户端, 同时,组成当当网的电脑,数据库 和应用程序就被当作服务器, 当顾客的网页浏览器向当当网请求搜寻数据库相关的图书时 ,当当网服务器从当当网的数据库中合成一个网页, 再发送回顾客的就蓝旗, 服务器端一般使用高性能的计算机, 并配合使用不同类型的数据库, 比如Oracle, Sybase,或者是MySQL等 客户端需要安装专门的软件 比如专门开发的客户端工具浏览器等.
+
+#### 1.3.2 MySQL 版本
+
+    针对不同用户, MySQL分别为两个不同的版本:
+
+*  MySQL Community Server(社区版): 改版本完全免费, 但是官方不提供技术支持.
+*  MySQL Enterprise Server(企业版服务器): 它能够以很高的性价比为企业提供数据库仓库应用, 支持ACID事物处理,提供完整的提交,回滚,崩溃恢复和行级锁定功能,但是该版本需要付费使用, 官方提供电话技术支持.
