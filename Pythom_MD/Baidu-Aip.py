@@ -1,6 +1,6 @@
 from aip import AipImageClassify
 
-APP_ID = 11160858
+APP_ID = '11160858'
 API_KEY = "yk3QgeOs6o7F2lstKw8mKa0u"
 SECRET_KEY = "4X6GFZXYmn00FOfCLIw6aoOdvFtPrXQs"
 client = AipImageClassify(APP_ID, API_KEY, SECRET_KEY)
