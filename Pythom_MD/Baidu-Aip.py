@@ -9,7 +9,7 @@ client = AipImageClassify(APP_ID, API_KEY, SECRET_KEY)
 def get_file_content(filePath):
     with open(filePath,'rb') as fp:
         return fp.read()
-image = get_file_content('benchi.jpg')
+image = get_file_content('luhu1.jpg')
 
 ''' 调用车辆识别 '''
-print(client.animalDetect(image,options={"top_num":1})["result"][0]['name'])
+print(client.carDetect(image,options={"top_num":1})["result"][0]['name'])
