@@ -414,11 +414,11 @@ Django 是用 Python 编写的一个 Web 框架。这篇文章是介绍 Django �
 * 用 Auth0 保护 Python API
 
 ```
-> 作者：Bruno Krebs
->
-> 链接：
->
-> https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
+ 作者：Bruno Krebs
+
+ 链接：
+
+ https://auth0.com/blog/developing-restful-apis-with-python-and-flask/
 ```
 
 **Python 中的 Numpy**
