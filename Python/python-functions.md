@@ -10,14 +10,14 @@ Python 函数
 
  你可以定义一个由自己想要功能的函数，以下是简单的规则：
 
-  * 函数代码块以 **def** 关键词开头，后接函数标识符名称和圆括号**()**。
+  * 函数代码块以 **def** 关键词开头，后接函数标识符名称和圆括号 **()** 。
  * 任何传入参数和自变量必须放在圆括号中间。圆括号之间可以用于定义参数。
  * 函数的第一行语句可以选择性地使用文档字符串—用于存放函数说明。
  * 函数内容以冒号起始，并且缩进。
  * **return [表达式]** 结束函数，选择性地返回一个值给调用方。不带表达式的return相当于返回 None。
   ### 语法
 
- 
+
 ```
 
 def functionname( parameters ):
@@ -33,7 +33,7 @@ def functionname( parameters ):
 
  以下为一个简单的Python函数，它将一个字符串作为传入参数，再打印到标准显示设备上。
 
- 
+
 ```
 
 def printme( str ):
@@ -52,18 +52,18 @@ def printme( str ):
 
  如下实例调用了printme（）函数：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 # 定义函数
 def printme( str ):
    "打印任何传入的字符串"
    print str;
    return;
- 
+
 # 调用函数
 printme("我要调用用户自定义函数!");
 printme("再次调用同一函数");
@@ -72,7 +72,7 @@ printme("再次调用同一函数");
 
  以上实例输出结果：
 
- 
+
 ```
 
 我要调用用户自定义函数!
@@ -85,7 +85,7 @@ printme("再次调用同一函数");
 
  在 python 中，类型属于对象，变量是没有类型的：
 
- 
+
 ```
 
 a=[1,2,3]
@@ -118,12 +118,12 @@ a="Runoob"
 
  ### python 传不可变对象实例
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 def ChangeInt( a ):
     a = 10
 
@@ -137,19 +137,19 @@ print b # 结果是 2
 
  ### 传可变对象实例
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 # 可写函数说明
 def changeme( mylist ):
    "修改传入的列表"
    mylist.append([1,2,3,4]);
    print "函数内取值: ", mylist
    return
- 
+
 # 调用changeme函数
 mylist = [10,20,30];
 changeme( mylist );
@@ -159,7 +159,7 @@ print "函数外取值: ", mylist
 
  实例中传入函数的和在末尾添加新内容的对象用的是同一个引用，故输出结果如下：
 
- 
+
 ```
 
 函数内取值:  [10, 20, 30, [1, 2, 3, 4]]
@@ -182,18 +182,18 @@ print "函数外取值: ", mylist
 
  调用printme()函数，你必须传入一个参数，不然会出现语法错误：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 #可写函数说明
 def printme( str ):
    "打印任何传入的字符串"
    print str;
    return;
- 
+
 #调用printme函数
 printme();
 
@@ -201,7 +201,7 @@ printme();
 
  以上实例输出结果：
 
- 
+
 ```
 
 Traceback (most recent call last):
@@ -219,26 +219,26 @@ TypeError: printme() takes exactly 1 argument (0 given)
 
  以下实例在函数 printme() 调用时使用参数名：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 #可写函数说明
 def printme( str ):
    "打印任何传入的字符串"
    print str;
    return;
- 
+
 #调用printme函数
 printme( str = "My string");
 
 ```
 
- 以上实例输出结果： 
+ 以上实例输出结果：
 
- 
+
 ```
 
 My string
@@ -247,19 +247,19 @@ My string
 
  下例能将关键字参数顺序不重要展示得更清楚：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 #可写函数说明
 def printinfo( name, age ):
    "打印任何传入的字符串"
    print "Name: ", name;
    print "Age ", age;
    return;
- 
+
 #调用printinfo函数
 printinfo( age=50, name="miki" );
 
@@ -267,7 +267,7 @@ printinfo( age=50, name="miki" );
 
  以上实例输出结果：
 
- 
+
 ```
 
 Name:  miki
@@ -279,19 +279,19 @@ Age  50
 
  调用函数时，缺省参数的值如果没有传入，则被认为是默认值。下例会打印默认的age，如果age没有被传入：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 #可写函数说明
 def printinfo( name, age = 35 ):
    "打印任何传入的字符串"
    print "Name: ", name;
    print "Age ", age;
    return;
- 
+
 #调用printinfo函数
 printinfo( age=50, name="miki" );
 printinfo( name="miki" );
@@ -300,7 +300,7 @@ printinfo( name="miki" );
 
  以上实例输出结果：
 
- 
+
 ```
 
 Name:  miki
@@ -314,7 +314,7 @@ Age  35
 
  你可能需要一个函数能处理比当初声明时更多的参数。这些参数叫做不定长参数，和上述2种参数不同，声明时不会命名。基本语法如下：
 
- 
+
 ```
 
 def functionname([formal_args,] *var_args_tuple ):
@@ -326,12 +326,12 @@ def functionname([formal_args,] *var_args_tuple ):
 
  加了星号（*）的变量名会存放所有未命名的变量参数。不定长参数实例如下：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 # 可写函数说明
 def printinfo( arg1, *vartuple ):
    "打印任何传入的参数"
@@ -340,7 +340,7 @@ def printinfo( arg1, *vartuple ):
    for var in vartuple:
       print var
    return;
- 
+
 # 调用printinfo 函数
 printinfo( 10 );
 printinfo( 70, 60, 50 );
@@ -349,7 +349,7 @@ printinfo( 70, 60, 50 );
 
  以上实例输出结果：
 
- 
+
 ```
 
 输出:
@@ -366,15 +366,15 @@ printinfo( 70, 60, 50 );
 
  python 使用 lambda 来创建匿名函数。
 
-  * lambda只是一个表达式，函数体比def简单很多。 
-*  lambda的主体是一个表达式，而不是一个代码块。仅仅能在lambda表达式中封装有限的逻辑进去。 
+  * lambda只是一个表达式，函数体比def简单很多。
+*  lambda的主体是一个表达式，而不是一个代码块。仅仅能在lambda表达式中封装有限的逻辑进去。
 * lambda函数拥有自己的命名空间，且不能访问自有参数列表之外或全局命名空间里的参数。
  * 虽然lambda函数看起来只能写一行，却不等同于C或C++的内联函数，后者的目的是调用小函数时不占用栈内存从而增加运行效率。
   ### 语法
 
  lambda函数的语法只包含一个语句，如下：
 
- 
+
 ```
 
 lambda [arg1 [,arg2,.....argn]]:expression
@@ -383,15 +383,15 @@ lambda [arg1 [,arg2,.....argn]]:expression
 
  如下实例：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 # 可写函数说明
 sum = lambda arg1, arg2: arg1 + arg2;
- 
+
 # 调用sum函数
 print "相加后的值为 : ", sum( 10, 20 )
 print "相加后的值为 : ", sum( 20, 20 )
@@ -400,7 +400,7 @@ print "相加后的值为 : ", sum( 20, 20 )
 
  以上实例输出结果：
 
- 
+
 ```
 
 相加后的值为 :  30
@@ -413,19 +413,19 @@ print "相加后的值为 : ", sum( 20, 20 )
 
  return语句[表达式]退出函数，选择性地向调用方返回一个表达式。不带参数值的return语句返回None。之前的例子都没有示范如何返回数值，下例便告诉你怎么做：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 # 可写函数说明
 def sum( arg1, arg2 ):
    # 返回2个参数的和."
    total = arg1 + arg2
    print "函数内 : ", total
    return total;
- 
+
 # 调用sum函数
 total = sum( 10, 20 );
 
@@ -433,7 +433,7 @@ total = sum( 10, 20 );
 
  以上实例输出结果：
 
- 
+
 ```
 
 函数内 :  30
@@ -457,7 +457,7 @@ total = sum( 10, 20 );
 
  局部变量只能在其被声明的函数内部访问，而全局变量可以在整个程序范围内访问。调用函数时，所有在函数内声明的变量名称都将被加入到作用域中。如下实例：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -470,16 +470,16 @@ def sum( arg1, arg2 ):
    total = arg1 + arg2; # total在这里是局部变量.
    print "函数内是局部变量 : ", total
    return total;
- 
+
 #调用sum函数
 sum( 10, 20 );
-print "函数外是全局变量 : ", total 
+print "函数外是全局变量 : ", total
 
 ```
 
  以上实例输出结果：
 
- 
+
 ```
 
 函数内是局部变量 :  30

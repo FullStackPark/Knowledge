@@ -43,7 +43,7 @@ print "list2[1:5]: ", list2[1:5]
 
   以上实例输出结果：
 
- 
+
 ```
 
 list1[0]:  physics
@@ -67,11 +67,11 @@ list.append('Runoob')
 print list
 </pre>
 
-  **注意：**我们会在接下来的章节讨论append()方法的使用
+  **注意：** 我们会在接下来的章节讨论append()方法的使用
 
  以上实例输出结果：
 
- 
+
 ```
 
 ['Google', 'Runoob']
@@ -98,7 +98,7 @@ print list1
 
   以上实例输出结果：
 
- 
+
 ```
 
 ['physics', 'chemistry', 1997, 2000]
@@ -107,7 +107,7 @@ After deleting value at index 2 :
 
 ```
 
- **注意：**我们会在接下来的章节讨论remove()方法的使用
+ **注意：** 我们会在接下来的章节讨论remove()方法的使用
 
   Python列表脚本操作符
 -------------
@@ -116,7 +116,7 @@ After deleting value at index 2 :
 
  如下所示：
 
- 
+
 <table>
 
 
@@ -151,7 +151,7 @@ After deleting value at index 2 :
 
   描述：
 
- 
+
 <table>
 
 
@@ -165,5 +165,3 @@ After deleting value at index 2 :
 ", u"<tr><td>L[1:]</td><td>['Runoob', 'Taobao']</td><td>从第二个元素开始截取列表</td></tr>
 </tbody>
 </table>
-
-

@@ -1,14 +1,14 @@
 Python 异常处理
 ===========
 
-  python提供了两个非常重要的功能来处理python程序在运行中出现的异常和错误。你可以使用该功能来调试python程序。 
+  python提供了两个非常重要的功能来处理python程序在运行中出现的异常和错误。你可以使用该功能来调试python程序。
 
-*  异常处理: 本站Python教程会具体介绍。 
-*  断言(Assertions):本站Python教程会具体介绍。 
+*  异常处理: 本站Python教程会具体介绍。
+*  断言(Assertions):本站Python教程会具体介绍。
    python标准异常
 -----------
 
- 
+
 <table>
 
 
@@ -71,28 +71,28 @@ UserWarning</td><td> 用户代码生成的警告</td></tr></tr></tr>
  什么是异常？
 ------
 
- 异常即是一个事件，该事件会在程序执行过程中发生，影响了程序的正常执行。 
+ 异常即是一个事件，该事件会在程序执行过程中发生，影响了程序的正常执行。
 
- 一般情况下，在Python无法正常处理程序时就会发生一个异常。 
+ 一般情况下，在Python无法正常处理程序时就会发生一个异常。
 
- 异常是Python对象，表示一个错误。 
+ 异常是Python对象，表示一个错误。
 
- 当Python脚本发生异常时我们需要捕获处理它，否则程序会终止执行。 
+ 当Python脚本发生异常时我们需要捕获处理它，否则程序会终止执行。
 
  异常处理
 ----
 
-  捕捉异常可以使用try/except语句。 
+  捕捉异常可以使用try/except语句。
 
- try/except语句用来检测try语句块中的错误，从而让except语句捕获异常信息并处理。 
+ try/except语句用来检测try语句块中的错误，从而让except语句捕获异常信息并处理。
 
- 如果你不想在异常发生时结束你的程序，只需在try里捕获它。 
+ 如果你不想在异常发生时结束你的程序，只需在try里捕获它。
 
- 语法： 
+ 语法：
 
- 以下为简单的*try....except...else*的语法： 
+ 以下为简单的*try....except...else*的语法：
 
- 
+
 ```
 
 try:
@@ -106,16 +106,16 @@ else:
 
 ```
 
-  try的工作原理是，当开始一个try语句后，python就在当前程序的上下文中作标记，这样当异常出现时就可以回到这里，try子句先执行，接下来会发生什么依赖于执行时是否出现异常。 
+  try的工作原理是，当开始一个try语句后，python就在当前程序的上下文中作标记，这样当异常出现时就可以回到这里，try子句先执行，接下来会发生什么依赖于执行时是否出现异常。
 
- *  如果当try后的语句执行时发生异常，python就跳回到try并执行第一个匹配该异常的except子句，异常处理完毕，控制流就通过整个try语句（除非在处理异常时又引发新的异常）。 
-* 如果在try后的语句里发生了异常，却没有匹配的except子句，异常将被递交到上层的try，或者到程序的最上层（这样将结束程序，并打印缺省的出错信息）。 
-* 如果在try子句执行时没有发生异常，python将执行else语句后的语句（如果有else的话），然后控制流通过整个try语句。 
+ *  如果当try后的语句执行时发生异常，python就跳回到try并执行第一个匹配该异常的except子句，异常处理完毕，控制流就通过整个try语句（除非在处理异常时又引发新的异常）。
+* 如果在try后的语句里发生了异常，却没有匹配的except子句，异常将被递交到上层的try，或者到程序的最上层（这样将结束程序，并打印缺省的出错信息）。
+* 如果在try子句执行时没有发生异常，python将执行else语句后的语句（如果有else的话），然后控制流通过整个try语句。
  ### 实例
 
  下面是简单的例子，它打开一个文件，在该文件中的内容写入内容，且并未发生异常：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -134,10 +134,10 @@ else:
 
  以上程序输出结果：
 
- 
+
 ```
 
-$ python test.py 
+$ python test.py
 内容写入文件成功
 $ cat testfile       # 查看写入的内容
 这是一个测试文件，用于测试异常!!
@@ -148,7 +148,7 @@ $ cat testfile       # 查看写入的内容
 
  下面是简单的例子，它打开一个文件，在该文件中的内容写入内容，但文件没有写入权限，发生了异常：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -167,24 +167,24 @@ else:
 
  在执行代码前为了测试方便，我们可以先去掉 testfile 文件的写权限，命令如下：
 
- 
+
 ```
 chmod -w testfile
 ```
 
  再执行以上代码：
 
- 
+
 ```
 
-$ python test.py 
+$ python test.py
 Error: 没有找到文件或读取文件失败
 
 ```
 
  使用except而不带任何异常类型  你可以不带任何异常类型使用except，如下实例：
 
- 
+
 ```
 
 try:
@@ -198,14 +198,14 @@ else:
 
 ```
 
- 以上方式try-except语句捕获所有发生的异常。但这不是一个很好的方式，我们不能通过该程序识别出具体的异常信息。因为它捕获所有的异常。 
+ 以上方式try-except语句捕获所有发生的异常。但这不是一个很好的方式，我们不能通过该程序识别出具体的异常信息。因为它捕获所有的异常。
 
  使用except而带多种异常类型
 ----------------
 
-  你也可以使用相同的except语句来处理多个异常信息，如下所示： 
+  你也可以使用相同的except语句来处理多个异常信息，如下所示：
 
- 
+
 ```
 
 try:
@@ -222,9 +222,9 @@ else:
  try-finally 语句
 --------------
 
-  try-finally 语句无论是否发生异常都将执行最后的代码。 
+  try-finally 语句无论是否发生异常都将执行最后的代码。
 
- 
+
 ```
 
 try:
@@ -237,7 +237,7 @@ raise
 
  ### 实例
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -253,17 +253,17 @@ finally:
 
  如果打开的文件没有可写权限，输出如下所示：
 
- 
+
 ```
 
-$ python test.py 
+$ python test.py
 Error: 没有找到文件或读取文件失败
 
 ```
 
  同样的例子也可以写成如下方式：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -294,7 +294,7 @@ except IOError:
 
   你可以通过except语句来捕获异常的参数，如下所示：
 
- 
+
 ```
 
 try:
@@ -311,9 +311,9 @@ except ExceptionType, Argument:
 
  ### 实例
 
-  以下为单个异常的实例： 
+  以下为单个异常的实例：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -333,10 +333,10 @@ temp_convert("xyz");
 
  以上程序执行结果如下：
 
- 
+
 ```
 
-$ python test.py 
+$ python test.py
 参数没有包含数字
 invalid literal for int() with base 10: 'xyz'
 
@@ -348,7 +348,7 @@ invalid literal for int() with base 10: 'xyz'
 
  raise语法格式如下：
 
- 
+
 ```
 
 raise [Exception [, args [, traceback]]]
@@ -365,7 +365,7 @@ raise [Exception [, args [, traceback]]]
 
  定义一个异常非常简单，如下所示：
 
- 
+
 ```
 
 def functionName( level ):
@@ -375,11 +375,11 @@ def functionName( level ):
 
 ```
 
- **注意：**为了能够捕获异常，"except"语句必须有用相同的异常来抛出类对象或者字符串。
+ **注意：** 为了能够捕获异常，"except"语句必须有用相同的异常来抛出类对象或者字符串。
 
  例如我们捕获以上异常，"except"语句如下所示：
 
- 
+
 ```
 
 try:
@@ -393,7 +393,7 @@ else:
 
  ### 实例
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -415,10 +415,10 @@ else:
 
  执行以上代码，输出结果为：
 
- 
+
 ```
 
-$ python test.py 
+$ python test.py
 1 Invalid level!
 
 ```
@@ -432,7 +432,7 @@ $ python test.py
 
  在try语句块中，用户自定义的异常后执行except块语句，变量 e 是用于创建Networkerror类的实例。
 
- 
+
 ```
 
 class Networkerror(RuntimeError):
@@ -443,7 +443,7 @@ class Networkerror(RuntimeError):
 
  在你定义以上类后，你可以触发该异常，如下所示：
 
- 
+
 ```
 
 try:

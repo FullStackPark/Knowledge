@@ -5,9 +5,9 @@ Python 正则表达式
 
 Python 自1.5版本起增加了re 模块，它提供 Perl 风格的正则表达式模式。
 
- re 模块使 Python 语言拥有全部的正则表达式功能。 
+ re 模块使 Python 语言拥有全部的正则表达式功能。
 
- compile 函数根据一个模式字符串和可选的标志参数生成一个正则表达式对象。该对象拥有一系列方法用于正则表达式匹配和替换。 
+ compile 函数根据一个模式字符串和可选的标志参数生成一个正则表达式对象。该对象拥有一系列方法用于正则表达式匹配和替换。
 
  re 模块也提供了与这些方法功能完全一致的函数，这些函数使用一个模式字符串做为它们的第一个参数。
 
@@ -20,7 +20,7 @@ Python 自1.5版本起增加了re 模块，它提供 Perl 风格的正则表达�
 
  **函数语法**：
 
- 
+
 ```
 
 re.match(pattern, string, flags=0)
@@ -29,7 +29,7 @@ re.match(pattern, string, flags=0)
 
  函数参数说明：
 
- 
+
 <table>
 
 
@@ -48,7 +48,7 @@ re.match(pattern, string, flags=0)
 
  我们可以使用group(num) 或 groups() 匹配对象函数来获取匹配表达式。
 
- 
+
 <table>
 
 
@@ -68,7 +68,7 @@ re.match(pattern, string, flags=0)
  <pre>
 
 #!/usr/bin/python
-# -*- coding: UTF-8 -*- 
+# -*- coding: UTF-8 -*-
 import re
 print(re.match('www', 'www.runoob.com').span()) # 在起始位置匹配
 print(re.match('com', 'www.runoob.com')) # 不在起始位置匹配
@@ -76,7 +76,7 @@ print(re.match('com', 'www.runoob.com')) # 不在起始位置匹配
 
   以上实例运行输出结果为：
 
- 
+
 ```
 
 (0, 3)
@@ -103,7 +103,7 @@ else:
 
   以上实例执行结果如下：
 
- 
+
 ```
 
 matchObj.group() :  Cats are smarter than dogs
@@ -119,7 +119,7 @@ matchObj.group(2) :  smarter
 
  函数语法：
 
- 
+
 ```
 
 re.search(pattern, string, flags=0)
@@ -128,7 +128,7 @@ re.search(pattern, string, flags=0)
 
  函数参数说明：
 
- 
+
 <table>
 
 
@@ -147,7 +147,7 @@ re.search(pattern, string, flags=0)
 
  我们可以使用group(num) 或 groups() 匹配对象函数来获取匹配表达式。
 
- 
+
 <table>
 
 
@@ -167,7 +167,7 @@ re.search(pattern, string, flags=0)
  <pre>
 
 #!/usr/bin/python
-# -*- coding: UTF-8 -*- 
+# -*- coding: UTF-8 -*-
 import re
 print(re.search('www', 'www.runoob.com').span()) # 在起始位置匹配
 print(re.search('com', 'www.runoob.com').span()) # 不在起始位置匹配
@@ -175,7 +175,7 @@ print(re.search('com', 'www.runoob.com').span()) # 不在起始位置匹配
 
   以上实例运行输出结果为：
 
- 
+
 ```
 
 (0, 3)
@@ -191,7 +191,7 @@ print(re.search('com', 'www.runoob.com').span()) # 不在起始位置匹配
 #!/usr/bin/python
 import re
 line = "Cats are smarter than dogs";
- 
+
 searchObj = re.search( r'(.*) are (.*?) .*', line, re.M|re.I)
 if searchObj:
    print "searchObj.group() : ", searchObj.group()
@@ -201,7 +201,7 @@ else:
    print "Nothing found!!"
 </pre>
 
-  以上实例执行结果如下： 
+  以上实例执行结果如下：
 ```
 
 searchObj.group() :  Cats are smarter than dogs
@@ -223,7 +223,7 @@ searchObj.group(2) :  smarter
 #!/usr/bin/python
 import re
 line = "Cats are smarter than dogs";
- 
+
 matchObj = re.match( r'dogs', line, re.M|re.I)
 if matchObj:
    print "match --> matchObj.group() : ", matchObj.group()
@@ -236,7 +236,7 @@ else:
    print "No match!!"
 </pre>
 
-  以上实例运行结果如下： 
+  以上实例运行结果如下：
 ```
 
 No match!!
@@ -251,7 +251,7 @@ search --> matchObj.group() :  dogs
 
  语法：
 
- 
+
 ```
 
 re.sub(pattern, repl, string, count=0, flags=0)
@@ -273,18 +273,18 @@ re.sub(pattern, repl, string, count=0, flags=0)
 # -*- coding: UTF-8 -*-
 import re
 phone = "2004-959-559 # 这是一个国外电话号码"
-# 删除字符串中的 Python注释 
+# 删除字符串中的 Python注释
 num = re.sub(r'#.*$', "", phone)
 print "电话号码是: ", num
-# 删除非数字(-)的字符串 
+# 删除非数字(-)的字符串
 num = re.sub(r'\D', "", phone)
 print "电话号码是 : ", num
 </pre>
 
-  以上实例执行结果如下： 
+  以上实例执行结果如下：
 ```
 
-电话号码是:  2004-959-559 
+电话号码是:  2004-959-559
 电话号码是 :  2004959559
 
 ```
@@ -311,7 +311,7 @@ print(re.sub('(?P<value>\d+)', double, s))
 
   执行输出结果为：
 
- 
+
 ```
 
 A46G8HFD1134
@@ -323,7 +323,7 @@ A46G8HFD1134
 
  语法格式为：
 
- 
+
 ```
 re.compile(pattern[, flags])
 ```
@@ -342,7 +342,7 @@ re.compile(pattern[, flags])
     4.  **re.S** 即为 . 并且包括换行符在内的任意字符（. 不包括换行符）
     5.  **re.U** 表示特殊字符集 \w, \W, \b, \B, \d, \D, \s, \S 依赖于 Unicode 字符属性数据库
     6.  **re.X** 为了增加可读性，忽略空格和 # 后面的注释
-    
+
  ### 实例
 
   实例
@@ -417,15 +417,15 @@ IndexError: no such group
 
  语法格式为：
 
- 
+
 ```
 findall(string[, pos[, endpos]])
 ```
 
  参数：
 
- * string : 待匹配的字符串。 
-* pos : 可选参数，指定字符串的起始位置，默认为 0。 
+ * string : 待匹配的字符串。
+* pos : 可选参数，指定字符串的起始位置，默认为 0。
 *  endpos : 可选参数，指定字符串的结束位置，默认为字符串的长度。
  查找字符串中的所有数字：
 
@@ -445,7 +445,7 @@ print(result2)
 
   输出结果：
 
- 
+
 ```
 ['123', '456']
 ", u"['88', '12']
@@ -455,14 +455,14 @@ print(result2)
 
  和 findall 类似，在字符串中找到正则表达式所匹配的所有子串，并把它们作为一个迭代器返回。
 
- 
+
 ```
 re.finditer(pattern, string, flags=0)
 ```
 
  参数：
 
- 
+
 <table>
 
 
@@ -485,7 +485,7 @@ re.finditer(pattern, string, flags=0)
 # -*- coding: UTF-8 -*-
 import re
 it = re.finditer(r"\d+","12a32bc43jf3")
-for match in it: 
+for match in it:
     print (match.group() )
 </pre>
 
@@ -494,9 +494,9 @@ for match in it:
 
 ```
 
-12 
-32 
-43 
+12
+32
+43
 3
 
 ```
@@ -505,14 +505,14 @@ for match in it:
 
  split 方法按照能够匹配的子串将字符串分割后返回列表，它的使用形式如下：
 
- 
+
 ```
 re.split(pattern, string[, maxsplit=0, flags=0])
 ```
 
  参数：
 
- 
+
 <table>
 
 
@@ -539,7 +539,7 @@ re.split(pattern, string[, maxsplit=0, flags=0])
 ['', ' ', 'runoob', ', ', 'runoob', ', ', 'runoob', '.', '']
 >>> re.split('\W+', ' runoob, runoob, runoob.', 1)
 ['', 'runoob, runoob, runoob.']
- 
+
 >>> re.split('a*', 'hello world') # 对于一个找不到匹配的字符串而言，split 不会对其作出分割
 ['hello world']
 </pre>
@@ -555,15 +555,15 @@ re.split(pattern, string[, maxsplit=0, flags=0])
 
  group() 返回被 RE 匹配的字符串。
 
- *  start() 返回匹配开始的位置 
-*  end() 返回匹配结束的位置 
-*  span() 返回一个元组包含匹配 (开始,结束) 的位置 
+ *  start() 返回匹配开始的位置
+*  end() 返回匹配结束的位置
+*  span() 返回一个元组包含匹配 (开始,结束) 的位置
   正则表达式修饰符 - 可选标志
 ---------------
 
  正则表达式可以包含一些可选标志修饰符来控制匹配的模式。修饰符被指定为一个可选的标志。多个标志可以通过按位 OR(|) 它们来指定。如 re.I | re.M 被设置成 I 和 M 标志：
 
- 
+
 <table>
 
 
@@ -596,7 +596,7 @@ re.split(pattern, string[, maxsplit=0, flags=0])
 
  下表列出了正则表达式模式语法中的特殊元素。如果你使用模式的同时提供了可选的标志参数，某些模式元素的含义会改变。
 
- 
+
 <table>
 
 
@@ -648,7 +648,7 @@ re.split(pattern, string[, maxsplit=0, flags=0])
 
  #### 字符匹配
 
- 
+
 <table>
 
 
@@ -659,9 +659,10 @@ re.split(pattern, string[, maxsplit=0, flags=0])
 <tr><td>python</td><td>匹配 "python". </td></tr>
 </tbody>
 </table>
+
  #### 字符类
 
- 
+
 <table>
 
 
@@ -676,15 +677,16 @@ re.split(pattern, string[, maxsplit=0, flags=0])
 <tr><td>[a-z]</td><td>匹配任何小写字母</td></tr>
 <tr><td>[A-Z]</td><td>匹配任何大写字母</td></tr>
 <tr><td>[a-zA-Z0-9]</td><td>匹配任何字母及数字</td></tr>
-<tr><td>[^aeiou]</td><td>除了aeiou字母以外的所有字符 
+<tr><td>[^aeiou]</td><td>除了aeiou字母以外的所有字符
 </td></tr>
-<tr><td>[^0-9]</td><td>匹配除了数字外的字符 
+<tr><td>[^0-9]</td><td>匹配除了数字外的字符
 </td></tr>
 </tbody>
 </table>
+
  #### 特殊字符类
 
- 
+
 <table>
 
 
@@ -701,5 +703,3 @@ re.split(pattern, string[, maxsplit=0, flags=0])
 ", u"<tr><td>\W</td><td>匹配任何非单词字符。等价于 '[^A-Za-z0-9_]'。</td></tr>
 </tbody>
 </table>
-
-

@@ -15,7 +15,7 @@ Python 网络编程
 
  Python 中，我们用 socket（）函数来创建套接字，语法格式如下：
 
- 
+
 ```
 
 socket.socket([family[, type[, proto]]])
@@ -29,7 +29,7 @@ socket.socket([family[, type[, proto]]])
  * protocol: 一般不填默认为0.
   ### Socket 对象(内建)方法
 
- 
+
 <table>
 <thead>
 <tr>
@@ -145,7 +145,7 @@ socket.socket([family[, type[, proto]]])
 
  完整代码如下：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -176,7 +176,7 @@ while True:
 
  完整代码如下：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -197,24 +197,24 @@ s.close()
 
  现在我们打开两个终端，第一个终端执行 server.py 文件：
 
- 
+
 ```
 $ python server.py
 ```
 
  第二个终端执行 client.py 文件：
 
- 
+
 ```
 
-$ python client.py 
+$ python client.py
 欢迎访问菜鸟教程！
 
 ```
 
  这时我们再打开第一个终端，就会看到有以下信息输出：
 
- 
+
 ```
 
 连接地址： ('192.168.0.118', 62461)
@@ -226,7 +226,7 @@ $ python client.py
 
  以下列出了 Python 网络编程的一些重要模块：
 
- 
+
 <table>
 
 
@@ -249,5 +249,3 @@ $ python client.py
 
  更多内容可以参阅官网的 [Python Socket Library and Modules](https://docs.python.org/2/library/socket.html "Python Socket 库")
 。
-
-

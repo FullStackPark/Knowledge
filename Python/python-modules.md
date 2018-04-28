@@ -30,7 +30,7 @@ return
 
  模块定义好后，我们可以使用 import 语句来引入模块，语法如下：
 
- 
+
 ```
 
 import module1[, module2[,... moduleN]
@@ -39,12 +39,12 @@ import module1[, module2[,... moduleN]
 
  比如要引用模块 math，就可以在文件最开始的地方用 **import math** 来引入。在调用 math 模块中的函数时，必须这样引用：
 
- 
+
 ```
 模块名.函数名
 ```
 
-  当解释器遇到 import 语句，如果模块在当前的搜索路径就会被导入。 
+  当解释器遇到 import 语句，如果模块在当前的搜索路径就会被导入。
 
 搜索路径是一个解释器会先进行搜索的所有目录的列表。如想要导入模块 support.py，需要把命令放在脚本的顶端：
 
@@ -63,7 +63,7 @@ support.print_func("Runoob")
 
    以上实例输出结果：
 
- 
+
 ```
 
 Hello : Runoob
@@ -72,13 +72,13 @@ Hello : Runoob
 
  一个模块只会被导入一次，不管你执行了多少次import。这样可以防止导入模块被一遍又一遍地执行。
 
-   
+
   from…import 语句
 ---------------
 
  Python 的 from 语句让你从模块中导入一个指定的部分到当前命名空间中。语法如下：
 
- 
+
 ```
 
 from modname import name1[, name2[, ... nameN]]
@@ -87,7 +87,7 @@ from modname import name1[, name2[, ... nameN]]
 
  例如，要导入模块 fib 的 fibonacci 函数，使用如下语句：
 
- 
+
 ```
 
 from fib import fibonacci
@@ -96,24 +96,24 @@ from fib import fibonacci
 
  这个声明不会把整个 fib 模块导入到当前的命名空间中，它只会将 fib 里的 fibonacci 单个引入到执行这个声明的模块的全局符号表。
 
-   
+
  from…import* 语句
 ---------------
 
-  把一个模块的所有内容全都导入到当前的命名空间也是可行的，只需使用如下声明： 
+  把一个模块的所有内容全都导入到当前的命名空间也是可行的，只需使用如下声明：
 
- 
+
 ```
 
 from modname import *
 
 ```
 
- 这提供了一个简单的方法来导入一个模块中的所有项目。然而这种声明不该被过多地使用。 
+ 这提供了一个简单的方法来导入一个模块中的所有项目。然而这种声明不该被过多地使用。
 
  例如我们想一次性引入 math 模块中所有的东西，语句如下：
 
- 
+
 ```
 
 from math import *
@@ -130,7 +130,7 @@ from math import *
  * 3、如果都找不到，Python会察看默认路径。UNIX下，默认路径一般为/usr/local/lib/python/。
    模块搜索路径存储在 system 模块的 sys.path 变量中。变量里包含当前目录，PYTHONPATH和由安装过程决定的默认目录。
 
-   
+
  PYTHONPATH 变量
 -------------
 
@@ -138,7 +138,7 @@ from math import *
 
  在 Windows 系统，典型的 PYTHONPATH 如下：
 
- 
+
 ```
 
 set PYTHONPATH=c:\python27\lib;
@@ -147,13 +147,13 @@ set PYTHONPATH=c:\python27\lib;
 
  在 UNIX 系统，典型的 PYTHONPATH 如下：
 
- 
+
 ```
 
 set PYTHONPATH=/usr/local/lib/python
 ```
 
-   
+
  命名空间和作用域
 --------
 
@@ -169,27 +169,27 @@ set PYTHONPATH=/usr/local/lib/python
 
  global VarName 的表达式会告诉 Python， VarName 是一个全局变量，这样 Python 就不会在局部命名空间里寻找这个变量了。
 
- 例如，我们在全局命名空间里定义一个变量 Money。我们再在函数内给变量 Money 赋值，然后 Python 会假定 Money 是一个局部变量。然而，我们并没有在访问前声明一个局部变量 Money，结果就是会出现一个 UnboundLocalError 的错误。取消 global 语句的注释就能解决这个问题。 
+ 例如，我们在全局命名空间里定义一个变量 Money。我们再在函数内给变量 Money 赋值，然后 Python 会假定 Money 是一个局部变量。然而，我们并没有在访问前声明一个局部变量 Money，结果就是会出现一个 UnboundLocalError 的错误。取消 global 语句的注释就能解决这个问题。
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 Money = 2000
 def AddMoney():
    # 想改正代码就取消以下注释:
    # global Money
    Money = Money + 1
- 
+
 print Money
 AddMoney()
 print Money
 
 ```
 
-   
+
  dir()函数
 -------
 
@@ -197,35 +197,35 @@ print Money
 
  返回的列表容纳了在一个模块里定义的所有模块，变量和函数。如下一个简单的实例：
 
- 
+
 ```
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
- 
+
 # 导入内置math模块
 import math
- 
+
 content = dir(math)
- 
+
 print content;
 ```
 
  以上实例输出结果：
 
- 
+
 ```
 
-['__doc__', '__file__', '__name__', 'acos', 'asin', 'atan', 
-", u"'atan2', 'ceil', 'cos', 'cosh', 'degrees', 'e', 'exp', 
+['__doc__', '__file__', '__name__', 'acos', 'asin', 'atan',
+", u"'atan2', 'ceil', 'cos', 'cosh', 'degrees', 'e', 'exp',
 ", u"'fabs', 'floor', 'fmod', 'frexp', 'hypot', 'ldexp', 'log',
-", u"'log10', 'modf', 'pi', 'pow', 'radians', 'sin', 'sinh', 
+", u"'log10', 'modf', 'pi', 'pow', 'radians', 'sin', 'sinh',
 ", u"'sqrt', 'tan', 'tanh']
 ```
 
  在这里，特殊字符串变量\_\_name\_\_指向模块的名字，\_\_file\_\_指向该模块的导入文件名。
 
-   
+
  globals() 和 locals() 函数
 -----------------------
 
@@ -237,7 +237,7 @@ print content;
 
  两个函数的返回类型都是字典。所以名字们能用 keys() 函数摘取。
 
-   
+
  reload() 函数
 -----------
 
@@ -245,7 +245,7 @@ print content;
 
  因此，如果你想重新执行模块里顶层部分的代码，可以用 reload() 函数。该函数会重新导入之前导入过的模块。语法如下：
 
- 
+
 ```
 
 reload(module_name)
@@ -253,13 +253,13 @@ reload(module_name)
 
  在这里，module\_name要直接放模块的名字，而不是一个字符串形式。比如想重载 hello 模块，如下：
 
- 
+
 ```
 
 reload(hello)
 ```
 
-   
+
  Python中的包
 ---------
 
@@ -267,9 +267,9 @@ reload(hello)
 
  简单来说，包就是文件夹，但该文件夹下必须存在 \_\_init\_\_.py 文件, 该文件的内容可以为空。\_\_int\_\_.py用于标识当前文件夹是一个包。
 
- 考虑一个在 **package\_runoob** 目录下的 **runoob1.py、runoob2.py、\_\_init\_\_.py ** 文件，test.py 为测试调用包的代码，目录结构如下：
+ 考虑一个在 **package\_runoob** 目录下的 **runoob1.py、runoob2.py、\_\_init\_\_.py** 文件，test.py 为测试调用包的代码，目录结构如下：
 
- 
+
 ```
 
 test.py
@@ -335,7 +335,7 @@ runoob2()
 
    以上实例输出结果：
 
- 
+
 ```
 
 package_runoob 初始化

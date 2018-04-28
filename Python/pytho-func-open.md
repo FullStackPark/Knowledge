@@ -1,4 +1,5 @@
-# Python open() 函数
+Python open() 函数
+==================
 
 Python 内置函数 Python 内置函数
 
