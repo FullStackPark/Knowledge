@@ -69,3 +69,4 @@ __import__('a') # 导入 a.py 模块
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+

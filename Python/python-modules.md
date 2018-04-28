@@ -268,3 +268,80 @@ reload(hello)
  简单来说，包就是文件夹，但该文件夹下必须存在 \_\_init\_\_.py 文件, 该文件的内容可以为空。\_\_int\_\_.py用于标识当前文件夹是一个包。
 
  考虑一个在 **package\_runoob** 目录下的 **runoob1.py、runoob2.py、\_\_init\_\_.py ** 文件，test.py 为测试调用包的代码，目录结构如下：
+
+ 
+```
+
+test.py
+package_runoob
+|-- __init__.py
+|-- runoob1.py
+|-- runoob2.py
+
+```
+
+ 源代码如下：  package\_runoob/runoob1.py
+--------------------------
+
+ <pre>
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+def runoob1():
+   print "I'm in runoob1"
+</pre>
+
+   package\_runoob/runoob2.py
+--------------------------
+
+ <pre>
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+def runoob2():
+   print "I'm in runoob2"
+</pre>
+
+  现在，在 **package\_runoob** 目录下创建 **\_\_init\_\_.py**：
+
+  package\_runoob/\_\_init\_\_.py
+-------------------------------
+
+ <pre>
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+if __name__ == '__main__':
+    print '作为主程序运行'
+else:
+    print 'package_runoob 初始化'
+</pre>
+
+  然后我们在 **package\_runoob** 同级目录下创建 test.py 来调用 **package\_runoob** 包
+
+  test.py
+-------
+
+ <pre>
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+# 导入 Phone 包
+from package_runoob.runoob1 import runoob1
+from package_runoob.runoob2 import runoob2
+runoob1()
+runoob2()
+</pre>
+
+   以上实例输出结果：
+
+ 
+```
+
+package_runoob 初始化
+I'm in runoob1
+", u"I'm in runoob2
+
+```
+
+  如上，为了举例，我们只在每个文件里放置了一个函数，但其实你可以放置许多函数。你也可以在这些文件里定义Python的类，然后为这些类建一个包。

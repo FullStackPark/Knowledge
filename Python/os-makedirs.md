@@ -11,9 +11,9 @@ Python os.makedirs() 方法
 
  ### 语法
 
- **makedirs()**方法语法格式如下：
+ **makedirs()** 方法语法格式如下：
 
- 
+
 ```
 
 os.makedirs(path, mode=0o777)
@@ -36,7 +36,7 @@ os.makedirs(path, mode=0o777)
 
  以下实例演示了 makedirs() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -55,7 +55,7 @@ print "路径被创建"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 路径被创建

@@ -11,9 +11,9 @@ Python os.open() 方法
 
  ### 语法
 
- **open()**方法语法格式如下：
+ **open()** 方法语法格式如下：
 
- 
+
 ```
 
 os.open(file, flags[, mode]);
@@ -27,9 +27,9 @@ os.open(file, flags[, mode]);
 
  * **flags** -- 该参数可以是以下选项，多个使用 "|" 隔开：
 
- 
-	 + **os.O\_RDONLY:** 以只读的方式打开 
-	 + **os.O\_WRONLY:** 以只写的方式打开 
+
+	 + **os.O\_RDONLY:** 以只读的方式打开
+	 + **os.O\_WRONLY:** 以只写的方式打开
 	 + **os.O\_RDWR :** 以读写的方式打开
 	 + **os.O\_NONBLOCK:** 打开时不阻塞
 	 + **os.O\_APPEND:** 以追加的方式打开
@@ -41,7 +41,7 @@ os.open(file, flags[, mode]);
 	 + **os.O\_DIRECT:** 消除或减少缓存效果
 	 + **os.O\_FSYNC :** 同步写入
 	 + **os.O\_NOFOLLOW:** 不追踪软链接
-	  
+
  * **mode** -- 类似 [chmod()](os-chmod.html)
 。
 
@@ -54,7 +54,7 @@ os.open(file, flags[, mode]);
 
  以下实例演示了 open() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -77,7 +77,7 @@ print "关闭文件成功!!"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 关闭文件成功!!

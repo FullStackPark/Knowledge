@@ -15,9 +15,9 @@ Python os.walk() 方法
 
  ### 语法
 
- **walk()**方法语法格式如下：
+ **walk()** 方法语法格式如下：
 
- 
+
 ```
 
 os.walk(top[, topdown=True[, onerror=None[, followlinks=False]]])
@@ -28,7 +28,7 @@ os.walk(top[, topdown=True[, onerror=None[, followlinks=False]]])
 
  *  **top** -- 是你所要便利的目录的地址, 返回的是一个三元组(root,dirs,files)。
 
- 
+
 	 + root 所指的是当前正在遍历的这个文件夹的本身的地址
 	 + dirs 是一个 list ，内容是该文件夹中所有的目录的名字(不包括子目录)
 	 + files 同样是 list , 内容是该文件夹中所有的文件(不包括子目录)

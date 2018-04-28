@@ -29,3 +29,5 @@ class bytearray([source[, encoding[, errors]]])
 *  如果 source 为字符串，则按照指定的 encoding 将字符串转换为字节序列；
 *  如果 source 为可迭代类型，则元素必须为[0 ,255] 中的整数；
 *  如果 source 为与 buffer 接口一致的对象，则此对象也可以被用于初始化 bytearray。
+
+

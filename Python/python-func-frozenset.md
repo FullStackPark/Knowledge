@@ -49,3 +49,5 @@ frozenset(['b', 'r', 'u', 'o', 'n']) # 创建不可变集合
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+
+

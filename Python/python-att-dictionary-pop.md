@@ -1,8 +1,7 @@
 Python 字典 pop() 方法
 ==================
 
- [![Python 字典](../images/up.gif)
- Python 字典](python-dictionary.html)
+ [Python 字典](python-dictionary.html)
 
 
   描述
@@ -50,5 +49,6 @@ print pop_obj   // 输出 ：菜鸟教程
 
 ```
 
-  [![Python 字典](../images/up.gif)
- Python 字典](python-dictionary.html)
+ [Python 字典](python-dictionary.html)
+
+

@@ -5,9 +5,9 @@ Python 练习实例97
  Python 100例](python-100-examples.html)
 
 
- **题目：**从键盘输入一些字符，逐个把它们写到磁盘文件上，直到输入一个 # 为止。
+ **题目：** 从键盘输入一些字符，逐个把它们写到磁盘文件上，直到输入一个 # 为止。
 
- **程序分析：**无。
+ **程序分析：** 无。
 
  程序源代码：
 
@@ -32,7 +32,7 @@ fp.close()
 
  以上实例输出结果为：
 
- 
+
 ```
 
 输入文件名:
@@ -47,10 +47,10 @@ google#
 
  实例中创建了 runoobfile.txt 文件并向其写入 runoob 和 google 两个字符串，查看 runoobfile.txt 文件内容：
 
- 
+
 ```
 
-$ cat runoobfile.txt 
+$ cat runoobfile.txt
 runoobgoogle
 
 ```

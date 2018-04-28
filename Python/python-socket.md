@@ -246,5 +246,8 @@ $ python client.py
 <tr><td>Gopher</td><td>信息查找</td><td>70</td><td>gopherlib, urllib</td></tr>
 </tbody>
 </table>
+
  更多内容可以参阅官网的 [Python Socket Library and Modules](https://docs.python.org/2/library/socket.html "Python Socket 库")
 。
+
+

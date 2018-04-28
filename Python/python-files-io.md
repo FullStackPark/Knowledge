@@ -662,3 +662,5 @@ os.rmdir( "/tmp/test"  )
 : file对象提供了操作文件的一系列方法。
  * [OS 对象方法](os-file-methods.html)
 : 提供了处理文件及目录的一系列方法。
+
+Process finished with exit code 0

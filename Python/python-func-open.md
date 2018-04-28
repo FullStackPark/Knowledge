@@ -72,3 +72,28 @@ open(name[, mode[, buffering]])
 
  *  偏移量:单位:比特,可正可负
 *  起始位置:0-文件头,默认值;1-当前位置;2-文件尾
+  **f.close()** 关闭文件
+
+ ### 实例
+
+ 测试文件 test.txt，内容如下：
+
+ 
+```
+
+RUNOOB1
+RUNOOB2
+
+```
+
+  <pre>
+
+>>>f = open('test.txt')
+>>> f.read()
+'RUNOOB1\nRUNOOB2\n'
+</pre>
+
+ [![Python 内置函数](../images/up.gif)
+ Python 内置函数](python-built-in-functions.html)
+
+

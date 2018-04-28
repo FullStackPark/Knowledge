@@ -11,9 +11,9 @@ Python os.isatty() 方法
 
  ### 语法
 
- **isatty()**方法语法格式如下：
+ **isatty()** 方法语法格式如下：
 
- 
+
 ```
 
 os.isatty()
@@ -31,7 +31,7 @@ os.isatty()
 
  以下实例演示了 isatty() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -57,7 +57,7 @@ os.close( fd )
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 返回值:  False

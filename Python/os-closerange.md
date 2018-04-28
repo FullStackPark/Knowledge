@@ -11,9 +11,9 @@ Python os.closerange() 方法
 
  ### 语法
 
- **closerange()**方法语法格式如下：
+ **closerange()** 方法语法格式如下：
 
- 
+
 ```
 
 os.closerange(fd_low, fd_high);
@@ -30,7 +30,7 @@ os.closerange(fd_low, fd_high);
 
   该方法类似于：
 
- 
+
 ```
 
 for fd in xrange(fd_low, fd_high):
@@ -49,7 +49,7 @@ for fd in xrange(fd_low, fd_high):
 
  以下实例演示了 closerange() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -72,7 +72,7 @@ print "关闭文件成功!!"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 关闭文件成功!!
 

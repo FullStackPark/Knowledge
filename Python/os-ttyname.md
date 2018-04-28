@@ -11,9 +11,9 @@ Python os.ttyname() 方法
 
  ### 语法
 
- **ttyname()**方法语法格式如下：
+ **ttyname()** 方法语法格式如下：
 
- 
+
 ```
 
 os.ttyname(fd)
@@ -33,7 +33,7 @@ os.ttyname(fd)
 
  以下实例演示了 ttyname() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -57,9 +57,9 @@ print "关闭文件成功!!"
 
 ```
 
- 执行以上程序输出结果为： 
+ 执行以上程序输出结果为：
 
- 
+
 ```
 
 当前目录 :/tmp

@@ -13,9 +13,9 @@ Python os.popen() 方法
 
  ### 语法
 
- **popen()**方法语法格式如下：
+ **popen()** 方法语法格式如下：
 
- 
+
 ```
 
 os.popen(command[, mode[, bufsize]])
@@ -35,13 +35,13 @@ os.popen(command[, mode[, bufsize]])
 
   ### 返回值
 
- 返回一个文件描述符号为fd的打开的文件对象 
+ 返回一个文件描述符号为fd的打开的文件对象
 
  ### 实例
 
  以下实例演示了 popen() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -60,7 +60,7 @@ print b
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 open file 'mkdir nwdir', mode 'r' at 0x81614d0

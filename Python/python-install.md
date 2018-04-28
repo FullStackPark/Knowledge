@@ -221,3 +221,5 @@ path=%path%;C:\Python
  继续下一章之前，请确保您的环境已搭建成功。如果你不能够建立正确的环境，那么你就可以从您的系统管理员的帮助。
 
  在以后的章节中给出的例子已在 Python2.7.6 版本测试通过。
+
+Process finished with exit code 0

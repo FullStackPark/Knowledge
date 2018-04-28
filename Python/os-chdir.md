@@ -11,9 +11,9 @@ Python os.chdir() 方法
 
  ### 语法
 
- **chdir()**方法语法格式如下：
+ **chdir()** 方法语法格式如下：
 
- 
+
 ```
 
 os.chdir(path)
@@ -22,7 +22,7 @@ os.chdir(path)
 
  ### 参数
 
-  * **path** -- 要切换到的新路径。 
+  * **path** -- 要切换到的新路径。
 
 
   ### 返回值
@@ -33,7 +33,7 @@ os.chdir(path)
 
  以下实例演示了 chdir() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -59,7 +59,7 @@ print "目录修改成功 %s" % retval
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 当前工作目录为 /www

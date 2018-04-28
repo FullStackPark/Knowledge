@@ -11,9 +11,9 @@ Python os.removedirs() 方法
 
  ### 语法
 
- **removedirs()**方法语法格式如下：
+ **removedirs()** 方法语法格式如下：
 
- 
+
 ```
 
 os.removedirs(path)
@@ -27,13 +27,13 @@ os.removedirs(path)
 
   ### 返回值
 
- 该方法没有返回值 
+ 该方法没有返回值
 
  ### 实例
 
  以下实例演示了 removedirs() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -54,7 +54,7 @@ print "移除后目录为:" %os.listdir(os.getcwd())
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 目录为:

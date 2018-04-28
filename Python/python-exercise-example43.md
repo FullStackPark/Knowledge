@@ -5,13 +5,13 @@ Python 练习实例43
  Python 100例](python-100-examples.html)
 
 
- **题目：**模仿静态变量(static)另一案例。
+ **题目：** 模仿静态变量(static)另一案例。
 
- **程序分析：**演示一个python作用域使用方法
+ **程序分析：** 演示一个python作用域使用方法
 
  程序源代码：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
  以上实例输出结果为：
 
- 
+
 ```
 
 The num = 3

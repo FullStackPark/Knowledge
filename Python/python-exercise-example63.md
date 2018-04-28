@@ -5,9 +5,9 @@ Python 练习实例63
  Python 100例](python-100-examples.html)
 
 
- **题目：**画椭圆。　
+ **题目：** 画椭圆。　
 
- **程序分析：**使用 Tkinter。
+ **程序分析：** 使用 Tkinter。
 
  程序源代码：
 

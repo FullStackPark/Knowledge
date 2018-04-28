@@ -11,9 +11,9 @@ Python os.getcwd() 方法
 
  ### 语法
 
- **getcwd()**方法语法格式如下：
+ **getcwd()** 方法语法格式如下：
 
- 
+
 ```
 
 os.getcwd()
@@ -31,7 +31,7 @@ os.getcwd()
 
  以下实例演示了 getcwd() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -61,7 +61,7 @@ os.close( fd )
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 当前工作目录 : /var/www/html

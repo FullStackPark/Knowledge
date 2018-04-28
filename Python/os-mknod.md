@@ -11,9 +11,9 @@ Python os.mknod() 方法
 
  ### 语法
 
- **mknod()**方法语法格式如下：
+ **mknod()** 方法语法格式如下：
 
- 
+
 ```
 
 os.mknod(filename[, mode=0600[, device=0]])
@@ -39,7 +39,7 @@ os.mknod(filename[, mode=0600[, device=0]])
 
  以下实例演示了 mknod() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -58,7 +58,7 @@ os.mknod(filename, mode)
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 -rw-------. 1 root   root         0 Apr 30 02:38 tmpfile

@@ -11,9 +11,9 @@ Python os.makedev() 方法
 
  ### 语法
 
- **makedev()**方法语法格式如下：
+ **makedev()** 方法语法格式如下：
 
- 
+
 ```
 
 os.makedev(major, minor)
@@ -36,7 +36,7 @@ os.makedev(major, minor)
 
  以下实例演示了 makedev() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -64,7 +64,7 @@ print "设备号 :", dev_num
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 Major 设备号 : 0

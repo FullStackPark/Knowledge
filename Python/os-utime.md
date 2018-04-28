@@ -13,9 +13,9 @@ Python os.utime() 方法
 
  ### 语法
 
- **utime()**方法语法格式如下：
+ **utime()** 方法语法格式如下：
 
- 
+
 ```
 
 os.utime(path, times)
@@ -38,7 +38,7 @@ os.utime(path, times)
 
  以下实例演示了 utime() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -60,9 +60,9 @@ print "done!!"
 
 ```
 
- 执行以上程序输出结果为： 
+ 执行以上程序输出结果为：
 
- 
+
 ```
 
 posix.stat_result(st_mode=33188, st_ino=3940649674337682L, st_dev=277923425L, st

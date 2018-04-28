@@ -5,9 +5,9 @@ Python 练习实例56
  Python 100例](python-100-examples.html)
 
 
- **题目：**画图，学用circle画圆形。　　　
+ **题目：** 画图，学用circle画圆形。　　　
 
- **程序分析：**无。
+ **程序分析：** 无。
 
  程序源代码：
 
@@ -20,7 +20,7 @@ Python 练习实例56
 # -*- coding: UTF-8 -*-
 if __name__ == '__main__':
     from Tkinter import *
- 
+
     canvas = Canvas(width=800, height=600, bg='yellow')
 canvas.pack(expand=YES, fill=BOTH)
 k = 1

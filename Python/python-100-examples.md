@@ -207,3 +207,4 @@ Python 100例
 ----
 
   *  [Python - 获取 100 以内的质数](python-get-prime-number.html "Python - 获取 100 以内的质数")
+

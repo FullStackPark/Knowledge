@@ -11,9 +11,9 @@ Python os.tempnam() 方法
 
  ### 语法
 
- **tempnam()**方法语法格式如下：
+ **tempnam()** 方法语法格式如下：
 
- 
+
 ```
 
 os.tempnam(dir, prefix)
@@ -36,7 +36,7 @@ os.tempnam(dir, prefix)
 
  以下实例演示了 tempnam() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -54,7 +54,7 @@ print tmpfn
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 这是一个唯一路径:

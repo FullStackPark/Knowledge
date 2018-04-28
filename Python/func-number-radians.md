@@ -15,7 +15,7 @@ Python  radians() 函数
 
  以下是 radians() 方法的语法:
 
- 
+
 ```
 
 import math
@@ -24,23 +24,23 @@ math.radians(x)
 
 ```
 
- **注意：**radians()是不能直接访问的，需要导入 math 模块，然后通过 math 静态对象调用该方法。
+ **注意：** radians()是不能直接访问的，需要导入 math 模块，然后通过 math 静态对象调用该方法。
 
   参数
 --
 
-  *  x -- 一个数值。 
+  *  x -- 一个数值。
    返回值
 ---
 
-  返回一个角度的弧度值。 
+  返回一个角度的弧度值。
 
   实例
 --
 
-  以下展示了使用 radians() 方法的实例： 
+  以下展示了使用 radians() 方法的实例：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -55,9 +55,9 @@ print "radians(math.pi/4) : ",  math.radians(math.pi/4)
 
 ```
 
-  以上实例运行后输出结果为： 
+  以上实例运行后输出结果为：
 
- 
+
 ```
 
 radians(3) :  0.0523598775598

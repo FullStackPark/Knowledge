@@ -5,7 +5,7 @@ Python 基础语法
 
  在本章中我们将来学习 Python 的基础语法，让你快速学会 Python 编程。
 
- 第一个 Python 程序
+第一个 Python 程序
 -------------
 
  ### 交互式编程
@@ -447,5 +447,7 @@ Options and arguments (and corresponding environment variables):
 
 ```
 
- 我们在使用脚本形式执行 Python 时，可以接收命令行输入的参数，具体使用可以参照 [Python 命令行参数](python-command-line-arguments.html)
+ 我们在使用脚本形式执行 Python 时，可以接收命令行输入的参数，具体使用可以参照 [Python 命令行参数](python-command-line-arguments.md)
 。
+
+

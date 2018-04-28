@@ -15,7 +15,7 @@ Python  seed() 函数
 
  以下是 seed() 方法的语法:
 
- 
+
 ```
 
 import random
@@ -24,23 +24,23 @@ random.seed ( [x] )
 
 ```
 
- **注意：**seed(()是不能直接访问的，需要导入 random 模块，然后通过 random 静态对象调用该方法。
+ **注意：** seed(()是不能直接访问的，需要导入 random 模块，然后通过 random 静态对象调用该方法。
 
   参数
 --
 
-  *  x -- 改变随机数生成器的种子seed。如果你不了解其原理，你不必特别去设定seed，Python会帮你选择seed。 
+  *  x -- 改变随机数生成器的种子seed。如果你不了解其原理，你不必特别去设定seed，Python会帮你选择seed。
    返回值
 ---
 
-  本函数没有返回值。 
+  本函数没有返回值。
 
   实例
 --
 
-  以下展示了使用 seed(() 方法的实例： 
+  以下展示了使用 seed(() 方法的实例：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -59,9 +59,9 @@ print "Random number with seed 10 : ", random.random()
 
 ```
 
-  以上实例运行后输出结果为： 
+  以上实例运行后输出结果为：
 
- 
+
 ```
 
 Random number with seed 10 :  0.57140259469

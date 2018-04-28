@@ -5,13 +5,13 @@ Python 练习实例59
  Python 100例](python-100-examples.html)
 
 
- **题目：**画图，综合例子。　　
+ **题目：** 画图，综合例子。　　
 
- **程序分析：**利用for循环控制100-999个数，每个数分解出个位，十位，百位。。
+ **程序分析：** 利用for循环控制100-999个数，每个数分解出个位，十位，百位。。
 
  程序源代码：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -34,7 +34,7 @@ if __name__  == '__main__':
         y = math.ceil(y0 + 48 * math.sin(a) * B)
         canvas.create_line(x0,y0,x,y,fill = 'red')
     canvas.create_oval(x0 - 60,y0 - 60,x0 + 60,y0 + 60)
-    
+
 
     for k in range(501):
         for i in range(17):

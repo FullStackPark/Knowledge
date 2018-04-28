@@ -15,7 +15,7 @@ Python  degrees() 函数
 
  以下是 degrees() 方法的语法:
 
- 
+
 ```
 
 import math
@@ -24,23 +24,23 @@ math.degrees(x)
 
 ```
 
- **注意：**degrees()是不能直接访问的，需要导入 math 模块，然后通过 math 静态对象调用该方法。
+ **注意：** degrees()是不能直接访问的，需要导入 math 模块，然后通过 math 静态对象调用该方法。
 
   参数
 --
 
-  *  x -- 一个数值。 
+  *  x -- 一个数值。
    返回值
 ---
 
-  返回一个角度值。 
+  返回一个角度值。
 
   实例
 --
 
-  以下展示了使用 degrees() 方法的实例： 
+  以下展示了使用 degrees() 方法的实例：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -55,9 +55,9 @@ print "degrees(math.pi/4) : ",  math.degrees(math.pi/4)
 
 ```
 
-  以上实例运行后输出结果为： 
+  以上实例运行后输出结果为：
 
- 
+
 ```
 
 degrees(3) :  171.887338539

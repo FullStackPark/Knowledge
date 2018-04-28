@@ -13,9 +13,9 @@ Python os.fdopen() 方法
 
  ### 语法
 
- **fdopen()**方法语法格式如下：
+ **fdopen()** 方法语法格式如下：
 
- 
+
 ```
 
 os.fdopen(fd, [, mode[, bufsize]]);
@@ -41,7 +41,7 @@ os.fdopen(fd, [, mode[, bufsize]]);
 
  以下实例演示了 fdopen() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -78,7 +78,7 @@ print "关闭文件成功!!"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 Current I/O pointer position :0

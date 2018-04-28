@@ -5,13 +5,13 @@ Python 练习实例64
  Python 100例](python-100-examples.html)
 
 
- **题目：**利用ellipse 和 rectangle 画图。。　
+ **题目：** 利用ellipse 和 rectangle 画图。。　
 
- **程序分析：**无。
+ **程序分析：** 无。
 
  程序源代码：
 
- 
+
 ```
 
 #!/usr/bin/python

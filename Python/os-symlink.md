@@ -11,9 +11,9 @@ Python os.symlink() 方法
 
  ### 语法
 
- **symlink()**方法语法格式如下：
+ **symlink()** 方法语法格式如下：
 
- 
+
 ```
 
 os.symlink(src, dst)
@@ -36,7 +36,7 @@ os.symlink(src, dst)
 
  以下实例演示了 symlink() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -56,7 +56,7 @@ print "软链接创建成功"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 软链接创建成功
 

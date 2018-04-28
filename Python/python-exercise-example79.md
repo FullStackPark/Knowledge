@@ -5,9 +5,9 @@ Python 练习实例79
  Python 100例](python-100-examples.html)
 
 
- **题目：**字符串排序。
+ **题目：** 字符串排序。
 
- **程序分析：**无。
+ **程序分析：** 无。
 
   实例(Python 2.0+)
 ---------------
@@ -30,7 +30,7 @@ print str1,str2,str3
 
   以上实例输出结果为：
 
- 
+
 ```
 
 input string:

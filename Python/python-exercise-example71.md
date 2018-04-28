@@ -5,9 +5,9 @@ Python 练习实例71
  Python 100例](python-100-examples.html)
 
 
- **题目：**编写input()和output()函数输入，输出5个学生的数据记录。
+ **题目：** 编写input()和output()函数输入，输出5个学生的数据记录。
 
- **程序分析：**无。
+ **程序分析：** 无。
 
  程序源代码：
 
@@ -45,7 +45,7 @@ output_stu(student)
 
  以上实例输出结果为：
 
- 
+
 ```
 
 input student num:

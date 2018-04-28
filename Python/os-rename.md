@@ -11,9 +11,9 @@ Python os.rename() 方法
 
  ### 语法
 
- **rename()**方法语法格式如下：
+ **rename()** 方法语法格式如下：
 
- 
+
 ```
 
 os.rename(src, dst)
@@ -30,13 +30,13 @@ os.rename(src, dst)
 
   ### 返回值
 
- 该方法没有返回值 
+ 该方法没有返回值
 
  ### 实例
 
  以下实例演示了 rename() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -59,7 +59,7 @@ print "目录为: %s" %os.listdir(os.getcwd())
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 目录为:

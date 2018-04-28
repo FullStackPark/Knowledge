@@ -11,9 +11,9 @@ Python os.openpty() 方法
 
  ### 语法
 
- **openpty()**方法语法格式如下：
+ **openpty()** 方法语法格式如下：
 
- 
+
 ```
 
 os.openpty()

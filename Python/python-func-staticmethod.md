@@ -50,3 +50,5 @@ cobj.f() # 也可以实例化后调用
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+
+

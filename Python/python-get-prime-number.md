@@ -49,3 +49,4 @@ print func_get_prime(100)
 
  [![Python 100例](../images/up.gif)
  Python 100例](python-100-examples.html)
+

@@ -11,9 +11,9 @@ Python os.tmpfile() 方法
 
  ### 语法
 
- **tmpfile()**方法语法格式如下：
+ **tmpfile()** 方法语法格式如下：
 
- 
+
 ```
 
 os.tmpfile
@@ -33,7 +33,7 @@ os.tmpfile
 
  以下实例演示了 tmpfile() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -51,9 +51,9 @@ tmpfile.close
 
 ```
 
- 执行以上程序输出结果为： 
+ 执行以上程序输出结果为：
 
- 
+
 ```
 
 临时文件在这创建了.....

@@ -11,9 +11,9 @@ Python os.stat\_float\_times() 方法
 
  ### 语法
 
- **stat\_float\_times()**方法语法格式如下：
+ **stat\_float\_times()** 方法语法格式如下：
 
- 
+
 ```
 
 os.stat_float_times([newvalue])
@@ -33,7 +33,7 @@ os.stat_float_times([newvalue])
 
  以下实例演示了 stat\_float\_times() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -52,10 +52,10 @@ print statinfo
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
-posix.stat_result(st_mode=33188, st_ino=3940649674337682L, st_dev=277923425L, 
+posix.stat_result(st_mode=33188, st_ino=3940649674337682L, st_dev=277923425L,
 st_nlink=1, st_uid=400, st_gid=401, st_size=335L, st_atime=1330498089, st_mtime=13
 30498089, st_ctime=1330498089)
 True

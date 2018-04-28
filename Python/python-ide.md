@@ -124,3 +124,4 @@ Sublime Text 是一个跨平台的编辑器，同时支持 Windows、Linux、Mac
 
 
  当然还有非常多很棒的 Python IDE，你可以自由的选择，更多 Python IDE 请参阅：<http://wiki.python.org/moin/PythonEditors>
+

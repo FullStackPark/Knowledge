@@ -62,3 +62,5 @@ xrange(0, 6, 2) # 步长为 2
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+
+

@@ -5,9 +5,9 @@ Python 练习实例57
  Python 100例](python-100-examples.html)
 
 
- **题目：**画图，学用line画直线。
+ **题目：** 画图，学用line画直线。
 
- **程序分析：**无。
+ **程序分析：** 无。
 
   实例
 --
@@ -18,7 +18,7 @@ Python 练习实例57
 # -*- coding: UTF-8 -*-
 if __name__ == '__main__':
     from Tkinter import *
- 
+
     canvas = Canvas(width=300, height=300, bg='green')
 canvas.pack(expand=YES, fill=BOTH)
 x0 = 263

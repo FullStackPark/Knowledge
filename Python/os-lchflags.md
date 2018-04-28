@@ -13,9 +13,9 @@ Python os.lchflags() 方法
 
  ### 语法
 
- **lchflags()**方法语法格式如下：
+ **lchflags()** 方法语法格式如下：
 
- 
+
 ```
 
 os.lchflags(path, flags)
@@ -29,38 +29,38 @@ os.lchflags(path, flags)
 
  * **flags** -- 可以由一个或多个标记组合，多个使用"|"隔开：
 
- 
+
 	 + **UF\_NODUMP:** 非转储文件
-	
-	
+
+
 	 + **UF\_IMMUTABLE:** 文件是只读的
-	
-	
+
+
 	 + **UF\_APPEND:** 文件只能追加内容
-	
-	
+
+
 	 + **UF\_NOUNLINK:** 文件不可删除
-	
-	
+
+
 	 + **UF\_OPAQUE:** 目录不透明，需要通过联合堆栈查看
-	
-	
+
+
 	 + **SF\_ARCHIVED:** 可存档文件(超级用户可设)
-	
-	
+
+
 	 + **SF\_IMMUTABLE:** 文件是只读的(超级用户可设)
-	
-	
+
+
 	 + **SF\_APPEND:** 文件只能追加内容(超级用户可设)
-	
-	
+
+
 	 + **SF\_NOUNLINK:** 文件不可删除(超级用户可设)
-	
-	
+
+
 	 + **SF\_SNAPSHOT:** 快照文件(超级用户可设)
-	
-	
-	  
+
+
+
   ### 返回值
 
  该方法没有返回值。
@@ -69,7 +69,7 @@ os.lchflags(path, flags)
 
  以下实例演示了 lchflags() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -93,7 +93,7 @@ print "修改文件标记成功!!"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 修改文件标记成功!!

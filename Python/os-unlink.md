@@ -11,9 +11,9 @@ Python os.unlink() 方法
 
  ### 语法
 
- **unlink()**方法语法格式如下：
+ **unlink()** 方法语法格式如下：
 
- 
+
 ```
 
 os.unlink(path)
@@ -33,7 +33,7 @@ os.unlink(path)
 
  以下实例演示了 unlink() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -51,14 +51,14 @@ print "删除后的目录为 : %s" %os.listdir(os.getcwd())
 
 ```
 
- 执行以上程序输出结果为： 
+ 执行以上程序输出结果为：
 
- 
+
 ```
 
 目录为:
  [ 'a1.txt','aa.txt','resume.doc']
-删除后的目录为 : 
+删除后的目录为 :
 [ 'a1.txt','resume.doc' ]
 
 ```

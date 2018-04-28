@@ -13,9 +13,9 @@ Python os.chown() 方法
 
  ### 语法
 
- **chown()**方法语法格式如下：
+ **chown()** 方法语法格式如下：
 
- 
+
 ```
 
 os.chown(path, uid, gid);
@@ -27,10 +27,10 @@ os.chown(path, uid, gid);
   * **path** -- 设置权限的文件路径
 
 
- * **uid** -- 所属用户 ID 
+ * **uid** -- 所属用户 ID
 
 
- * **gid** -- 所属用户组 ID 
+ * **gid** -- 所属用户组 ID
 
 
   ### 返回值
@@ -41,7 +41,7 @@ os.chown(path, uid, gid);
 
  以下实例演示了 lchmod() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -50,7 +50,7 @@ os.chown(path, uid, gid);
 import os, sys
 
 # 假定 /tmp/foo.txt 文件存在.
-# 设置所有者 ID 为 100 
+# 设置所有者 ID 为 100
 os.chown("/tmp/foo.txt", 100, -1)
 
 print "修改权限成功!!"
@@ -59,7 +59,7 @@ print "修改权限成功!!"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 修改权限成功!!

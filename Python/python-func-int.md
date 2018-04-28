@@ -52,3 +52,4 @@ class int(x, base=10)
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+

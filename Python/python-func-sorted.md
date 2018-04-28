@@ -72,3 +72,5 @@ sorted(iterable[, cmp[, key[, reverse]]])
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+
+

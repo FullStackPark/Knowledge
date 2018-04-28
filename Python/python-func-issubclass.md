@@ -47,3 +47,5 @@ print(issubclass(B,A)) # 返回 True
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+
+

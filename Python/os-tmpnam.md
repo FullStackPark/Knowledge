@@ -11,9 +11,9 @@ Python os.tmpnam() 方法
 
  ### 语法
 
- **tmpnam()**方法语法格式如下：
+ **tmpnam()** 方法语法格式如下：
 
- 
+
 ```
 
 os.tmpnam
@@ -33,7 +33,7 @@ os.tmpnam
 
  以下实例演示了 tmpnam() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -49,9 +49,9 @@ print tmpfn
 
 ```
 
- 执行以上程序输出结果为： 
+ 执行以上程序输出结果为：
 
- 
+
 ```
 
 这是一个唯一的路径:

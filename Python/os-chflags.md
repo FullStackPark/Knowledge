@@ -13,9 +13,9 @@ Python os.chflags() 方法
 
  ### 语法
 
- **chflags()**方法语法格式如下：
+ **chflags()** 方法语法格式如下：
 
- 
+
 ```
 
 os.chflags(path, flags)
@@ -24,23 +24,23 @@ os.chflags(path, flags)
 
  ### 参数
 
-  * **path** -- 文件名路径或目录路径。 
+  * **path** -- 文件名路径或目录路径。
 
 
- * **flags** -- 可以是以下值： 
+ * **flags** -- 可以是以下值：
 
- 
+
 	 + **stat.UF\_NODUMP:** 非转储文件
 	 + **stat.UF\_IMMUTABLE:** 文件是只读的
-	 + **stat.UF\_APPEND:** 文件只能追加内容 
+	 + **stat.UF\_APPEND:** 文件只能追加内容
 	 + **stat.UF\_NOUNLINK:** 文件不可删除
 	 + **stat.UF\_OPAQUE:** 目录不透明，需要通过联合堆栈查看
-	 + **stat.SF\_ARCHIVED:** 可存档文件(超级用户可设) 
+	 + **stat.SF\_ARCHIVED:** 可存档文件(超级用户可设)
 	 + **stat.SF\_IMMUTABLE:** 文件是只读的(超级用户可设)
-	 + **stat.SF\_APPEND:** 文件只能追加内容(超级用户可设) 
-	 + **stat.SF\_NOUNLINK:** 文件不可删除(超级用户可设) 
-	 + **stat.SF\_SNAPSHOT:** 快照文件(超级用户可设) 
-	  
+	 + **stat.SF\_APPEND:** 文件只能追加内容(超级用户可设)
+	 + **stat.SF\_NOUNLINK:** 文件不可删除(超级用户可设)
+	 + **stat.SF\_SNAPSHOT:** 快照文件(超级用户可设)
+
   ### 返回值
 
  该方法没有返回值。
@@ -49,7 +49,7 @@ os.chflags(path, flags)
 
  以下实例演示了 chflags() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -68,7 +68,7 @@ print "返回值: %s" % retval
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 返回值: None

@@ -11,9 +11,9 @@ Python os.statvfs() 方法
 
  ### 语法
 
- **statvfs()**方法语法格式如下：
+ **statvfs()** 方法语法格式如下：
 
- 
+
 ```
 
 os.statvfs([path])
@@ -29,10 +29,10 @@ os.statvfs([path])
 
  返回的结构:
 
-  * **f\_bsize:** 文件系统块大小 
+  * **f\_bsize:** 文件系统块大小
 
 
- * **f\_frsize:** 分栈大小 
+ * **f\_frsize:** 分栈大小
 
 
  * **f\_blocks:** 文件系统数据块总数
@@ -44,13 +44,13 @@ os.statvfs([path])
  * **f\_bavail:**非超级用户可获取的块数
 
 
- * **f\_files:** 文件结点总数 
+ * **f\_files:** 文件结点总数
 
 
- * **f\_ffree:** 可用文件结点数 
+ * **f\_ffree:** 可用文件结点数
 
 
- * **f\_favail:** 非超级用户的可用文件结点数 
+ * **f\_favail:** 非超级用户的可用文件结点数
 
 
  * **f\_fsid:** 文件系统标识 ID
@@ -59,14 +59,14 @@ os.statvfs([path])
  * **f\_flag:** 挂载标记
 
 
- * **f\_namemax:** 最大文件长度 
+ * **f\_namemax:** 最大文件长度
 
 
   ### 实例
 
  以下实例演示了 statvfs() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -83,7 +83,7 @@ print stinfo
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 posix.statvfs_result(f_bsize=4096, f_frsize=4096, f_blocks=1909350L, f_bfree=1491513L,

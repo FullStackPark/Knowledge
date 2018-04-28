@@ -13,9 +13,9 @@ Python os.getcwdu() 方法
 
  ### 语法
 
- **getcwdu()**方法语法格式如下：
+ **getcwdu()** 方法语法格式如下：
 
- 
+
 ```
 
 os.getcwdu()
@@ -33,7 +33,7 @@ os.getcwdu()
 
  以下实例演示了 getcwdu() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -63,7 +63,7 @@ os.close( fd )
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 当前工作目录 : /var/www/html

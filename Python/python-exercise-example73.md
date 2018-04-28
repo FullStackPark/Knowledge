@@ -5,9 +5,9 @@ Python 练习实例73
  Python 100例](python-100-examples.html)
 
 
- **题目：**反向输出一个链表。
+ **题目：** 反向输出一个链表。
 
- **程序分析：**无。
+ **程序分析：** 无。
 
   实例(Python 2.0+)
 ---------------
@@ -28,7 +28,7 @@ print ptr
 
  以上实例输出结果为：
 
- 
+
 ```
 
 please input a number:

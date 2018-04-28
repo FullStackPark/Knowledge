@@ -15,7 +15,7 @@ Python  ceil() 函数
 
  以下是 ceil() 方法的语法:
 
- 
+
 ```
 
 import math
@@ -24,7 +24,7 @@ math.ceil( x )
 
 ```
 
- **注意：**ceil()是不能直接访问的，需要导入 math 模块，通过静态对象调用该方法。
+ **注意：** ceil()是不能直接访问的，需要导入 math 模块，通过静态对象调用该方法。
 
   参数
 --
@@ -35,9 +35,9 @@ math.ceil( x )
  函数返回数字的上入整数。  实例
 --
 
-  以下展示了使用 ceil() 方法的实例： 
+  以下展示了使用 ceil() 方法的实例：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -53,7 +53,7 @@ print "math.ceil(math.pi) : ", math.ceil(math.pi)
 
   以上实例运行后输出结果为：
 
- 
+
 ```
 
 math.ceil(-45.17) :  -45.0

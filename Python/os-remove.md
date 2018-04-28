@@ -13,9 +13,9 @@ Python os.remove() 方法
 
  ### 语法
 
- **remove()**方法语法格式如下：
+ **remove()** 方法语法格式如下：
 
- 
+
 ```
 
 os.remove(path)
@@ -29,13 +29,13 @@ os.remove(path)
 
   ### 返回值
 
- 该方法没有返回值 
+ 该方法没有返回值
 
  ### 实例
 
  以下实例演示了 remove() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -56,12 +56,12 @@ print "移除后 : %s" %os.listdir(os.getcwd())
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 目录为:
 [ 'a1.txt','aa.txt','resume.doc' ]
-移除后 : 
+移除后 :
 [ 'a1.txt','resume.doc' ]
 
 ```

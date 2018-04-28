@@ -1,4 +1,4 @@
-Python os.mkfifo() 方法
+ Python os.mkfifo() 方法
 =====================
 
  [![Python File(文件) 方法](../images/up.gif)
@@ -11,9 +11,9 @@ Python os.mkfifo() 方法
 
  ### 语法
 
- **mkfifo()**方法语法格式如下：
+ **mkfifo()** 方法语法格式如下：
 
- 
+
 ```
 
 os.mkfifo(path[, mode])
@@ -36,7 +36,7 @@ os.mkfifo(path[, mode])
 
  以下实例演示了 mkfifo() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -55,7 +55,7 @@ print "路径被创建"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 路径被创建

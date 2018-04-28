@@ -21,3 +21,5 @@ while 判断条件：
  ### Gif 演示 Python while 语句执行过程
 
  ![](http://www.runoob.com/wp-content/uploads/2013/11/loop-over-python-list-animation.gif)
+
+

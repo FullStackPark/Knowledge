@@ -79,3 +79,5 @@ Traceback (most recent call last):
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+
+Process finished with exit code 0

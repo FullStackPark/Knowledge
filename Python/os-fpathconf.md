@@ -13,9 +13,9 @@ Python os.fpathconf() 方法
 
  ### 语法
 
- **fpathconf()**方法语法格式如下：
+ **fpathconf()** 方法语法格式如下：
 
- 
+
 ```
 
 os.fpathconf(fd, name)
@@ -41,7 +41,7 @@ os.fpathconf(fd, name)
 
  以下实例演示了 fpathconf() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -71,13 +71,13 @@ print "关闭文件成功!!"
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
-{'PC_MAX_INPUT': 2, 'PC_VDISABLE': 8, 'PC_SYNC_IO': 9, 
-", u"'PC_SOCK_MAXBUF': 12, 'PC_NAME_MAX': 3, 'PC_MAX_CANON': 1, 
-", u"'PC_PRIO_IO': 11, 'PC_CHOWN_RESTRICTED': 6, 'PC_ASYNC_IO': 10, 
-", u"'PC_NO_TRUNC': 7, 'PC_FILESIZEBITS': 13, 'PC_LINK_MAX': 0, 
+{'PC_MAX_INPUT': 2, 'PC_VDISABLE': 8, 'PC_SYNC_IO': 9,
+", u"'PC_SOCK_MAXBUF': 12, 'PC_NAME_MAX': 3, 'PC_MAX_CANON': 1,
+", u"'PC_PRIO_IO': 11, 'PC_CHOWN_RESTRICTED': 6, 'PC_ASYNC_IO': 10,
+", u"'PC_NO_TRUNC': 7, 'PC_FILESIZEBITS': 13, 'PC_LINK_MAX': 0,
 ", u"'PC_PIPE_BUF': 5, 'PC_PATH_MAX': 4}
 
 文件最大连接数为 :127

@@ -4,10 +4,11 @@ Python 练习实例44 - Python 两个矩阵相加
  [![Python 100例](../images/up.gif)
  Python 100例](python-100-examples.html)
 
+**题目:**
 
  两个 3 行 3 列的矩阵，实现其对应位置的数据相加，并返回一个新矩阵：
 
- 
+
 ```
 
 X = [[12,7,3],
@@ -49,10 +50,10 @@ for r in result:
    print(r)
 </pre>
 
-  
+
   执行以上代码，输出结果如下：
 
- 
+
 ```
 
 [17, 15, 4]

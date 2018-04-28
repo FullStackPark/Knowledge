@@ -13,9 +13,9 @@ Python os.listdir() 方法
 
  ### 语法
 
- **listdir()**方法语法格式如下：
+ **listdir()** 方法语法格式如下：
 
- 
+
 ```
 
 os.listdir(path)
@@ -35,7 +35,7 @@ os.listdir(path)
 
  以下实例演示了 listdir() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -55,7 +55,7 @@ for file in dirs:
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 test.htm

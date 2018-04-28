@@ -13,9 +13,9 @@ Python os.fchdir() 方法
 
  ### 语法
 
- **fchdir()**方法语法格式如下：
+ **fchdir()** 方法语法格式如下：
 
- 
+
 ```
 
 os.fchdir(fd);
@@ -35,7 +35,7 @@ os.fchdir(fd);
 
  以下实例演示了 fchdir() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -43,7 +43,7 @@ os.fchdir(fd);
 
 import os, sys
 
-# 首先到目录 "/var/www/html" 
+# 首先到目录 "/var/www/html"
 os.chdir("/var/www/html" )
 
 # 输出当前目录
@@ -65,7 +65,7 @@ os.close( fd )
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 当前工作目录为 : /var/www/html

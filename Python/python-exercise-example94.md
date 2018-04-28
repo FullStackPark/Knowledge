@@ -5,14 +5,13 @@ Python 练习实例94
  Python 100例](python-100-examples.html)
 
 
- **题目：**时间函数举例4,一个猜数游戏，判断一个人反应快慢。
+ **题目：** 时间函数举例4,一个猜数游戏，判断一个人反应快慢。
 
- **程序分析：**无。
+ **程序分析：** 无。
 
  程序源代码：
 
-  实例(Python 2.0+)
----------------
+  **实例(Python 2.0+)**
 
  <pre>
 
@@ -54,7 +53,7 @@ play_it = raw_input('do you want to play it.')
 
   以上实例输出结果为：
 
- 
+
 ```
 
 do you want to play it.('y' or 'n')y

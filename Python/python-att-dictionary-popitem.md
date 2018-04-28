@@ -57,9 +57,11 @@ print(site)
 ```
 
 ('url', 'www.runoob.com')
-", u"{'alexa': 10000, 'name': '\xe8\x8f\x9c\xe9\xb8\x9f\xe6\x95\x99\xe7\xa8\x8b'}
+{'alexa': 10000, 'name': '\xe8\x8f\x9c\xe9\xb8\x9f\xe6\x95\x99\xe7\xa8\x8b'}
 
 ```
 
   [![Python 字典](../images/up.gif)
  Python 字典](python-dictionary.html)
+
+Process finished with exit code 0

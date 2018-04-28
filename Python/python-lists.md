@@ -43,7 +43,7 @@ print "list2[1:5]: ", list2[1:5]
 
   以上实例输出结果：
 
- 
+
 ```
 
 list1[0]:  physics
@@ -54,24 +54,28 @@ list2[1:5]:  [2, 3, 4, 5]
   更新列表
 ----
 
- 你可以对列表的数据项进行修改或更新，你也可以使用append()方法来添加列表项，如下所示：  实例(Python 2.0+)
----------------
+ 你可以对列表的数据项进行修改或更新，你也可以使用append()方法来添加列表项，如下所示：  
 
- <pre>
+ **实例(Python 2.0+)**
 
+
+
+
+ ```
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 list = [] ## 空列表
 list.append('Google') ## 使用 append() 添加元素
 list.append('Runoob')
 print list
-</pre>
+```
 
-  **注意：**我们会在接下来的章节讨论append()方法的使用
+
+  **注意：** 我们会在接下来的章节讨论append()方法的使用
 
  以上实例输出结果：
 
- 
+
 ```
 
 ['Google', 'Runoob']
@@ -83,8 +87,8 @@ print list
 
  可以使用 del 语句来删除列表的元素，如下实例：
 
-  实例(Python 2.0+)
----------------
+  **实例(Python 2.0+)**
+
 
  <pre>
 
@@ -98,7 +102,7 @@ print list1
 
   以上实例输出结果：
 
- 
+
 ```
 
 ['physics', 'chemistry', 1997, 2000]
@@ -107,7 +111,7 @@ After deleting value at index 2 :
 
 ```
 
- **注意：**我们会在接下来的章节讨论remove()方法的使用
+ **注意：** 我们会在接下来的章节讨论remove()方法的使用
 
   Python列表脚本操作符
 -------------
@@ -116,7 +120,7 @@ After deleting value at index 2 :
 
  如下所示：
 
- 
+
 <table>
 
 
@@ -137,7 +141,7 @@ After deleting value at index 2 :
 
  Python 的列表截取实例如下：
 
-  <pre>
+```
 
 >>>L = ['Google', 'Runoob', 'Taobao']
 >>> L[2]
@@ -147,15 +151,9 @@ After deleting value at index 2 :
 >>> L[1:]
 ['Runoob', 'Taobao']
 >>>
-</pre>
+```
 
   描述：
-
- 
-<table>
-
-
-</table>
 
 <table>
 <tbody><tr>

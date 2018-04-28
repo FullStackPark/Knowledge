@@ -13,9 +13,9 @@ Python os.pathconf() 方法
 
  ### 语法
 
- **fpathconf()**方法语法格式如下：
+ **fpathconf()** 方法语法格式如下：
 
- 
+
 ```
 
 os.fpathconf(fd, name)

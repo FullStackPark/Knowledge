@@ -163,7 +163,11 @@ TypeError: 'type' object is unsubscriptable
 
  字典值可以没有限制地取任何python对象，既可以是标准的对象，也可以是用户定义的，但键不行。
 
- 两个重要的点需要记住： 1）不允许同一个键出现两次。创建时如果同一个键被赋值两次，后一个值会被记住，如下实例：  实例
+ 两个重要的点需要记住：
+
+ 1）不允许同一个键出现两次。创建时如果同一个键被赋值两次，后一个值会被记住，如下实例：
+
+  实例
 --
 
  <pre>
@@ -247,7 +251,7 @@ TypeError: list objects are unhashable
 <tr><td>5</td><td><a href="att-dictionary-has_key.html" target="_blank">dict.has_key(key)</a><br/>如果键在字典dict里返回true，否则返回false</td></tr>
 <tr><td>6</td><td><a href="att-dictionary-items.html" target="_blank">dict.items()</a><br/>以列表返回可遍历的(键, 值) 元组数组</td></tr>
 <tr><td>7</td><td><a href="att-dictionary-keys.html" target="_blank">dict.keys()</a><br/>以列表返回一个字典所有的键</td></tr>
-<tr><td>8</td><td><a href="att-dictionary-setdefault.html" target="_blank">dict.setdefault(key, default=None)</a><br/>	
+<tr><td>8</td><td><a href="att-dictionary-setdefault.html" target="_blank">dict.setdefault(key, default=None)</a><br/>  
 和get()类似, 但如果键不存在于字典中，将会添加键并将值设为default</td></tr>
 <tr><td>9</td><td><a href="att-dictionary-update.html" target="_blank">dict.update(dict2)</a><br/>把字典dict2的键/值对更新到dict里</td></tr>
 <tr><td>10</td><td><a href="att-dictionary-values.html" target="_blank">dict.values()</a><br/>以列表返回字典中的所有值</td></tr>
@@ -256,3 +260,4 @@ TypeError: list objects are unhashable
 <tr><td>12</td><td><a href="python-att-dictionary-popitem.html" target="_blank"> popitem()</a><br/>随机返回并删除字典中的一对键和值。</td></tr>
 </tbody>
 </table>
+

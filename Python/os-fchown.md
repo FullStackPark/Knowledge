@@ -13,9 +13,9 @@ Python os.fchown() 方法
 
  ### 语法
 
- **fchown()**方法语法格式如下：
+ **fchown()** 方法语法格式如下：
 
- 
+
 ```
 
 os.fchown(fd, uid, gid)
@@ -31,8 +31,8 @@ os.fchown(fd, uid, gid)
 
  * **gid** -- 文件所有者的用户组id
 
- 
- 
+
+
  ### 返回值
 
  该方法没有返回值。
@@ -41,7 +41,7 @@ os.fchown(fd, uid, gid)
 
  以下实例演示了 fchown() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -68,7 +68,7 @@ os.close( fd )
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 修改权限成功!!

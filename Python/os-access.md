@@ -11,9 +11,9 @@ Python os.access() 方法
 
  ### 语法
 
- **access()**方法语法格式如下：
+ **access()** 方法语法格式如下：
 
- 
+
 ```
 
 os.access(path, mode);
@@ -22,17 +22,17 @@ os.access(path, mode);
 
  ### 参数
 
-  * **path** -- 要用来检测是否有访问权限的路径。 
+  * **path** -- 要用来检测是否有访问权限的路径。
 
 
- * **mode** -- mode为F\_OK，测试存在的路径，或者它可以是包含R\_OK, W\_OK和X\_OK或者R\_OK, W\_OK和X\_OK其中之一或者更多。 
+ * **mode** -- mode为F\_OK，测试存在的路径，或者它可以是包含R\_OK, W\_OK和X\_OK或者R\_OK, W\_OK和X\_OK其中之一或者更多。
 
 
 	 + **os.F\_OK:** 作为access()的mode参数，测试path是否存在。
-	 + **os.R\_OK:** 包含在access()的mode参数中 ， 测试path是否可读。 
+	 + **os.R\_OK:** 包含在access()的mode参数中 ， 测试path是否可读。
 	 + **os.W\_OK** 包含在access()的mode参数中 ， 测试path是否可写。
 	 + **os.X\_OK** 包含在access()的mode参数中 ，测试path是否可执行。
-	  
+
   ### 返回值
 
  如果允许访问返回 True , 否则返回False。
@@ -41,7 +41,7 @@ os.access(path, mode);
 
  以下实例演示了 access() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -67,7 +67,7 @@ print "X_OK - 返回值 %s"% ret
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 F_OK - 返回值 True

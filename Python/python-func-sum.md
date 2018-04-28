@@ -46,3 +46,4 @@ sum(iterable[, start])
 
  [![Python 内置函数](../images/up.gif)
  Python 内置函数](python-built-in-functions.html)
+

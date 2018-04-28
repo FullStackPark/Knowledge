@@ -13,9 +13,9 @@ Python os.readlink() 方法
 
  ### 语法
 
- **readlink()**方法语法格式如下：
+ **readlink()** 方法语法格式如下：
 
- 
+
 ```
 
 os.readlink(path)
@@ -29,13 +29,13 @@ os.readlink(path)
 
   ### 返回值
 
- 返回软链接所指向的文件 
+ 返回软链接所指向的文件
 
  ### 实例
 
  以下实例演示了 readlink() 方法的使用：
 
- 
+
 ```
 
 #!/usr/bin/python
@@ -57,7 +57,7 @@ print path
 
  执行以上程序输出结果为：
 
- 
+
 ```
 
 /usr/bin/python
