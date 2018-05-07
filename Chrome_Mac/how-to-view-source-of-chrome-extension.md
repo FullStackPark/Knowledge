@@ -12,8 +12,7 @@ Thx to crxviewer for the [magic download URL](https://github.com/Rob--W/crxviewe
 
 The [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin?hl=en) is open source ([github repo](https://github.com/Rob--W/crxviewer)) and makes this super easy.
 
-![](https://lh6.googleusercontent.com/OV3gJcwk5QJk0lkLxta7t_m_hP1VSiJaIgd7w9XmxlVOVBaueTAHurfKSumlsVNXVR9hiEEOtQ=s640-h400-e365-rw)
-![](https://lh5.googleusercontent.com/26b4cVeAY8VJgEcdavxxII5MTYf-QXnDdlFjgtd5X3EX3dQjzQJxTkuWilcY1HqUzjJPSVdlJg=s640-h400-e365-rw)
+![7170369c-cd61-411a-8bf3-a0b07d35be91](https://user-images.githubusercontent.com/32263380/39686748-7a05153c-51fd-11e8-946f-d32d7c64b803.png)
 
 ## Option 3: View source of locally installed extension
 
