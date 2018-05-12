@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string>PIL 1.1.7a2</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.pythonmac.PIL</string>
+	<key>CFBundleName</key>
+	<string>PIL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.7a2</string>
+	<key>IFMajorVersion</key>
+	<integer>1</integer>
+	<key>IFMinorRevision</key>
+	<integer>1</integer>
+	<key>IFPkgFlagComponentDirectory</key>
+	<string>./Contents/Packages</string>
+	<key>IFPkgFlagPackageList</key>
+	<array>
+		<dict>
+			<key>IFPkgFlagPackageLocation</key>
+			<string>PIL-platlib-1.1.7a2-py2.5-macosx10.5.pkg</string>
+			<key>IFPkgFlagPackageSelection</key>
+			<string>selected</string>
+		</dict>
+		<dict>
+			<key>IFPkgFlagPackageLocation</key>
+			<string>PIL-scripts-1.1.7a2-py2.5-macosx10.5.pkg</string>
+			<key>IFPkgFlagPackageSelection</key>
+			<string>selected</string>
+		</dict>
+	</array>
+	<key>IFPkgFormatVersion</key>
+	<real>0.10000000149011612</real>
+	<key>IFRequirementDicts</key>
+	<array>
+		<dict>
+			<key>LabelKey</key>
+			<string>System Python 2.5</string>
+			<key>Level</key>
+			<string>requires</string>
+			<key>MessageKey</key>
+			<string>PIL requires System Python 2.5 to install.</string>
+			<key>SpecArgument</key>
+			<string>/Library/Frameworks/Python.framework/Versions/2.5</string>
+			<key>SpecProperty</key>
+			<string>NSFileType</string>
+			<key>SpecType</key>
+			<string>file</string>
+			<key>TestObject</key>
+			<string>NSFileTypeDirectory</string>
+			<key>TestOperator</key>
+			<string>eq</string>
+			<key>TitleKey</key>
+			<string>PIL requires System Python 2.5 to install.</string>
+		</dict>
+	</array>
+	<key>PythonInfoDict</key>
+	<dict>
+		<key>PythonExecutable</key>
+		<string>/Library/Frameworks/Python.framework/Versions/2.5/Resources/Python.app/Contents/MacOS/Python</string>
+		<key>PythonLongVersion</key>
+		<string>2.5.4 (r254:67917, Dec 23 2008, 14:57:27) 
+[GCC 4.0.1 (Apple Computer, Inc. build 5363)]</string>
+		<key>PythonShortVersion</key>
+		<string>2.5</string>
+		<key>bdist_mpkg</key>
+		<dict>
+			<key>version</key>
+			<string>0.4.3</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
