@@ -11,7 +11,7 @@ from PIL import Image # PIL 安装https://www.liaoxuefeng.com/wiki/0013747381250
 # driver = webdriver.Firefox() # 创建webdriver对象
 
 # url = "http://piaofang.maoyan.com" # 定义目标url
-driver = webdriver.Firefox() # 创建webdriver对象
+# driver = webdriver.Firefox() # 创建webdriver对象
 opts = FirefoxOptions()
 opts.add_argument("--headless")
 
