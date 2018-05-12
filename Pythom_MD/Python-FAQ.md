@@ -15,7 +15,3 @@
 [最佳答案](https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path)
 
 [下载地址](https://github.com/mozilla/geckodriver/releases)
-
-## 3\. Webdriver Exception:Process unexpectedly closed with status: 1
-
-[答案](https://stackoverflow.com/questions/46809135/webdriver-exceptionprocess-unexpectedly-closed-with-status-1)
