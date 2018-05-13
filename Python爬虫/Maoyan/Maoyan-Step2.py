@@ -4,7 +4,10 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from PIL import Image # PIL 安装https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140767171357714f87a053a824ffd811d98a83b58ec13000
-
+import sys
+import os
+reload(sys)
+sys.setdefaultencoding('utf-8')
 # export PATH=$PATH:~/Documents/ExecutableApp/geckodriver
 
 # export PATH=$PATH:~/Documents/ExecutableApp/geckodriver
@@ -75,8 +78,13 @@ def crop_image(image_path, pattern_xpath, crop_path, scroll_top=90):
 
     # 打开图片，抠取相应区域并存储
     im = Image.open(image_path)
-    im = im.crop((left, top, right, bottom))
-
+    im = im.crop((int(left), int(top), int(right), int(bottom)))
+    print(left)
+    print(top)
+    print(right)
+    print(bottom)
+    print(crop_path)
+    os.getcwd()
     im.save(crop_path)
 
 
@@ -86,6 +94,8 @@ now = datetime.now()
 now_sign = str(now.day)+str(now.hour)+str(now.minute)+str(now.second)
 
 print(now_sign)
+
+print os.getcwd()
 
 # 启动截图函数，获取当前页面
 snap_shot_path_1 = "snap_shot/maoyan_{0}_{1}.png".format('1', now_sign)
