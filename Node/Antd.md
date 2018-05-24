@@ -12,9 +12,9 @@
 
 * 打开这篇文章的应该都已经装好了，我就不多说了。
 
-### **2.安装dva-cli**
+### **2.安装dva-cli** [注意版本](https://github.com/dvajs/dva-cli/issues/148)
 
-* `npm install dva-cli -g`
+* `npm install dva-cli -g`  npm i dva-cli@0.8 -g
 
     > dva ： https://github.com/dvajs/dva
 
