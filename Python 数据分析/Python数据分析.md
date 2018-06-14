@@ -110,12 +110,12 @@
     - pip install pandas
     - pip install matplotlib
 
-* [Numpy]http://www.numpy.org/)
+* [Numpy](http://www.numpy.org/)
 
     - [中文资料](Python之numpy的基本使用.md)
     - 提供常用的数值数组、矩阵等函数
     
-    优点：
+    - 优点：
     是基于向量化的运算
     进行数值运算时Numpy数组比list效率高
 
@@ -125,6 +125,11 @@
 
     - [简易教程](Python之SciPy快速入门教程.md)
     - [SciPyLectureNotes 中文版](https://wizardforcel.gitbooks.io/scipy-lecture-notes/content/0.html)
+    - 是一种使用NumPy来做高等数学、信号处理、 优化、统计的扩展包
+    - Linear Algebra (scipy.linalg) 线性代数
+    - Statistics (scipy.stats) 统计
+    - Spatial data structures and algorithms (scipy.spatial) 空间数据结构和算法
+
 
 ### 常用高级数据分析库nltk、igraph和scikit-learn介绍
 ### Python2和Python3区别简介
