@@ -16,6 +16,13 @@
 
 [CS228 Python Tutorial](https://github.com/kuleshov/cs228-material/blob/master/tutorials/python/cs228-python-tutorial.ipynb)
 
+[Navicat 12 Windows 版本安装和简单使用](https://www.jianshu.com/p/5f693b4c9468)
+
+[Navicat 12 Mac 版本 xclient.info](http://xclient.info/s/navicat-for-mysql.html?t=607f34623d47ed1b8125fc5bd7515a28c1cd4f41#versions)
+
+[Jupyter使用](https://zhuanlan.zhihu.com/p/33105153)
+
+
 ### 1.2 主要内容
 
 * 安装Python与环境配置
