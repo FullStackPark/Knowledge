@@ -28,6 +28,7 @@ python_igraph-0.7.1.post6-cp27-none-win_amd64.whl
 *感谢叶作霖的贡献*
 
 - [PyCharm 安装和使用](http://yezuolin.com/2018/05/Pycharm/)
+- [pyCharm最新2018激活码](https://blog.csdn.net/u014044812/article/details/78727496)
 - [MongoDB 安装和使用](http://yezuolin.com/2018/05/MongoDB/)
 - [爬虫的相关的视频- 密码: 3axh](https://pan.baidu.com/s/1UdOfqGgTIhR9fGAE_58AoA)
 
