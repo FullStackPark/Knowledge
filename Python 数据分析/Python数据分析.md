@@ -4,6 +4,34 @@
 
 比较好的课程介绍，[基于卷积神经网络的视觉识别](http://cs231n.github.io/) [斯坦福大学网站](http://vision.stanford.edu/teaching/cs231n/)
 
+> 前置条件：
+
+> [Python3](http://www.runoob.com/python/python-tutorial.html) 
+
+> [MongoDB](http://www.runoob.com/mongodb/mongodb-tutorial.html)
+
+> [MySQL](http://www.runoob.com/mysql/mysql-tutorial.html)
+
+> [Navicat 12 Windows 版本安装和简单使用](https://www.jianshu.com/p/5f693b4c9468)
+
+> [Navicat 12 Mac 版本 xclient.info](http://xclient.info/s/navicat-for-mysql.html?t=607f34623d47ed1b8125fc5bd7515a28c1cd4f41#versions)
+> 
+>> 讲在前面
+>> 
+>> 找偏门的包到，lfd的网址，里面有很多python的资源和库与工具
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
+在上面的网址中找到python_igraph去下载具体的python对应版本和是32位还是64位的，我这里下载的的python27 win64的
+python_igraph-0.7.1.post6-cp27-none-win_amd64.whl
+利用pip 安装whl文件
+命令格式就是：pip install 文件名.whl
+但是避免出错的前提是，打开cmd以后，要cd进入你存放的该whl文件的解压后的目录下在用pip进行安装。 
+*感谢叶作霖的贡献*
+
+- [PyCharm 安装和使用](http://yezuolin.com/2018/05/Pycharm/)
+- [MongoDB 安装和使用](http://yezuolin.com/2018/05/MongoDB/)
+- [爬虫的相关的视频- 密码: 3axh](https://pan.baidu.com/s/1UdOfqGgTIhR9fGAE_58AoA)
+
+
 ## 第一章 Python 入门
 
 > “数据分析是Python的杀手锏"
