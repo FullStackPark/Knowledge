@@ -42,3 +42,7 @@ int varchar(50) varchar(20) varchar(40)
 ## 6. 导入
 
 ![import](./images/import-wizard.png)
+
+## 7. ER
+
+![er](./images/er.png)
